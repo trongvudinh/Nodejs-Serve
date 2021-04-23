@@ -2,5 +2,5 @@ const http = require('http');
 const app = require('./app');
 const server = http.createServer(app);
 server.listen(3001,function(){
-    console.log('server 3001')
+    console.log('server 3001');
 })
