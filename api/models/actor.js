@@ -3,15 +3,22 @@ const mongoose = require('mongoose');
 const userSchema = mongoose.Schema({
     _id:mongoose.Schema.Types.ObjectId,
     id: { type: mongoose.Schema.Types.ObjectId, require: true },
-    name: { type: String, require: true },
-    birtday: Date,
+    username: { type: String, require: true },
+    pass: { type: String, require: true },
+    level: { type: Number, require: true , default:0 },
     urlavatar: String,
-    famail: {},//{val:0,name:Nu}
-    type: {},//{val:0,name:dien vien}
+    background: String,
+    email: String,
     britday: Date,
-
+    thanhpho: {},
+    diachi: String,
+    hoten: String,
+    gioitinh: Number,//0:nam ,1:nu
+    sdt: String,
+    nghenghiep: String,
+    sothich:String,
     creattime:Date,
-    user_creat:[{ id :mongoose.Schema.Types.ObjectId , ref: "User"}],
+    lst_friend:[{ id :mongoose.Schema.Types.ObjectId , creattime: Date}],
     lst_movie_playback:[{ id :mongoose.Schema.Types.ObjectId , creattime: Date}],
     lst_movie_favorite:[{ id :mongoose.Schema.Types.ObjectId , creattime: Date}],
     lst_movie_like:[{ id :mongoose.Schema.Types.ObjectId , creattime: Date}],
@@ -70,4 +77,4 @@ userSchema.virtual('vir_CommentDisLike', {
     foreignField: 'id',
     justOne: false,
 });
-module.exports = mongoose.model('Actor', userSchema, 'T_ACTOR');
+module.exports = mongoose.model('User', userSchema, 'T_USER');
