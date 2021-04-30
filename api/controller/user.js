@@ -7,24 +7,49 @@ const mongoose= require('mongoose');
 const Notification = require('./../models/notification');
 const Approved = require('./../models/approved');
 const Token = require('./../models/token');
+const NotiNotSeen = require('./../models/noti_notseen');
 
 //=============================================GET=========================================================
 //=============================================GET=========================================================
 //=============================================GET=========================================================
 //=============================================GET=========================================================
 //=============================================GET=========================================================
+
+exports.getuserlogin = (req, res, next)=>{
+    try {
+        User.find({id : req.jwtDecoded.data.id }).then(data=>{    
+            if (data.length >0 ){
+                res.status(200).json(data[0]);
+                log.LogInfo(req.originalUrl);
+            }
+            else {
+                res.status(401).json();
+                log.LogError('loi 401',req,res);
+            }
+        }).catch(err =>{
+            res.status(500).json({ error : err});
+            log.LogInfo(err , req, res);
+        })
+    } catch (error) {
+        log.LogError(error, req, res)
+    }
+}
 exports.GetNotification = (req, res, next)=>{
     try {
         var leveluser =parseInt(req.jwtDecoded.data.level ,10);
         var limit = parseInt(req.params.limit ,10)
         var find_val = {}
-        if (leveluser >= 7) find_val={ $and:[ {status : 0} , {$or :[ {"touser.id" : req.body.id},{isto_admin : 0}]}]};
-        else find_val = {status : 0 ,id : req.body.id};
-        Notification.find(find_val).sort({creattime : -1}).skip(limit * 20).limit(20).then(data=>{
+        if (leveluser >= 7) find_val={ $and:[ {status : 0} , {$or :[ {"touser.id" : req.jwtDecoded.data.id},{isto_admin : 0}]}]};
+        else find_val = {status : 0 ,id : req.jwtDecoded.data.id};
+        Notification.find(find_val).sort({creattime : -1}).skip(limit * 20).limit(20).then(async data=>{
+            var count_seen = 0;
             const re =data.map((d,index)=>{
                 return {...d,admin:d.isto_admin,isnoti : 0};
-            })            
-            res.status(200).json({ Approved : re});
+            })     
+            var find_cont = leveluser >= 7 ? {user : $in[val_Const.idadmin.IDNOTINOTSEEN ,req.jwtDecoded.data.id]}:{ user : req.jwtDecoded.data.id} ;
+            var count_seen =  await NotiNotSeen.find(find_cont);
+            const re_count = count_seen.noti_notseen + count_seen.app_notseen;
+            res.status(200).json({ Approved : re , CountNotSeen : re_count});
             log.LogInfo(req.originalUrl);
         }).catch(err=>{
             res.status(500).json({ error : err});
@@ -40,15 +65,35 @@ exports.GetApproved = (req, res, next)=>{
         var leveluser =parseInt(req.jwtDecoded.data.level ,10);
         var limit = parseInt(req.params.limit ,10)
         var find_val = {}
-        if (leveluser >= 7) find_val={ $and:[ {status : 0} , {$or :[ {"touser.id" : req.body.id},{isto_admin : 0}]}]};
-        else find_val = {status : 0 ,id : req.body.id};
+        if (leveluser >= 7) find_val={ $and:[ {status : 0} , {$or :[ {"touser.id" : req.jwtDecoded.data.id},{isto_admin : 0}]}]};
+        else find_val = {status : 0 ,id : req.jwtDecoded.data.id};
         Approved.find(find_val).sort({creattime : -1}).skip(limit * 20).limit(20).then(data=>{
             const re =data.map((d,index)=>{
                 return {...d,admin:d.isto_admin,isnoti : 1};
-            })            
-            res.status(200).json({ Approved : re});
+            })      
+            var find_cont = leveluser >= 7 ? {user : $in[val_Const.idadmin.IDNOTINOTSEEN ,req.jwtDecoded.data.id]}:{ user : req.jwtDecoded.data.id} ;
+            var count_seen =  await NotiNotSeen.find(find_cont);
+            const re_count = count_seen.noti_notseen + count_seen.app_notseen;      
+            res.status(200).json({ Approved : re , CountNotSeen : re_count});
             log.LogInfo(req.originalUrl);
         }).catch(err=>{
+            res.status(500).json({ error : err});
+            log.LogInfo(err , req, res);
+        })
+    } catch (error) {
+        log.LogError(error, req, res)
+    }
+}
+
+exports.getaproved_send = (req, res, next)=>{
+    try {
+        Approved.find({user_creat : req.jwtDecoded.data.id }).sort({creattime : -1}).then(data=>{    
+            const re =data.map((d,index)=>{
+                return {...d,admin:d.isto_admin,isnoti : 1};
+            }) 
+            res.status(200).json({ Approved : re });
+            log.LogInfo(req.originalUrl);
+        }).catch(err =>{
             res.status(500).json({ error : err});
             log.LogInfo(err , req, res);
         })

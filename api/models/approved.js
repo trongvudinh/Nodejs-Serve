@@ -20,6 +20,7 @@ const userSchema = mongoose.Schema({
     user_creat:{ type :mongoose.Schema.Types.ObjectId , ref: "User"},
     creattime:Date,
     updatetime:Date,
+    seen:{ type :mongoose.Schema.Types.ObjectId , ref: "NotiNotSeen"},//0:seen, 1 : not
     type:Number,
     //Loai app
     //0:phe duyet warning
