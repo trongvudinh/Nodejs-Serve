@@ -1,0 +1,1 @@
+exports.SELECT_USER = 'id username level urlavatar hoten';

@@ -6,7 +6,7 @@ const log = require('./api/FuncLib/FuncLog');
 
 server.listen(3001,function(){
     console.log('server 3001');
-    log.LogInfo1('Server Start');
+    log.LogInfo('Server Start');
 });
 
 const io = socketio.listen(server);

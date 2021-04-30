@@ -9,10 +9,9 @@ exports.LogInfo1 = (data)=>{
         
     }
 }
-exports.LogInfo = (data ,req , res)=>{
+exports.LogInfo = (data)=>{
     try {
         log.info(JSON.stringify({
-            request:{url : req.originalUrl},
             data:data
         }));   
     } catch (error) {

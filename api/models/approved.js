@@ -15,6 +15,7 @@ const userSchema = mongoose.Schema({
         method:String,//method cua bang insert,update,delete
         fieldmethod:String//method cua field
     }],
+    isto_admin:Number,//0:true ,1 not
     touser:{ type :mongoose.Schema.Types.ObjectId , ref: "User"},
     user_creat:{ type :mongoose.Schema.Types.ObjectId , ref: "User"},
     creattime:Date,
