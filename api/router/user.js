@@ -11,7 +11,7 @@ const TokenController = require('./../middleware/token');
 //=======================================      GET     =========================================================
 //=======================================      GET     =========================================================
 //=======================================      GET     =========================================================
-router.get('/getuser',UserController.getuser);
+router.get('/getuserlogin',TokenController.is_token,UserController.getuserlogin);
 router.get('/GetNotification/:limit',TokenController.is_user,UserController.GetNotification);
 router.get('/GetApproved/:limit',TokenController.is_user,UserController.GetApproved);
 router.get('/getaproved_send',TokenController.is_user,UserController.getaproved_send);
@@ -19,7 +19,7 @@ router.get('/getlistemoj',TokenController.is_user,UserController.getlistemoj);
 router.get('/getHistoryEmoj',TokenController.is_user,UserController.getHistoryEmoj);
 
 // =================    User Active        ===============================================================================
-// ===========================================================================================================
+// =======================================================================================================================
 
 router.get('/getMess_CheckPonit',TokenController.is_user,UserActiveController.getMess_CheckPonit);
 router.get('/getlistBlockUser',TokenController.is_user,UserActiveController.getlistBlockUser);
@@ -36,6 +36,7 @@ router.get('/getusersetting',TokenController.is_user,UserSettingController.getus
 //=======================================      POST     =========================================================
 
 router.post('/signup',UserController.signup);
+router.post('/login',UserController.login);
 router.post('/creatusertemp',UserController.creatusertemp);
 router.post('/refreshtoken',TokenController.is_user,UserController.refreshtoken);
 

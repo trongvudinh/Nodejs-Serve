@@ -28,7 +28,7 @@ exports.getuserlogin = (req, res, next) => {
         if(req.jwtDecoded.data.type == 0 ){
             User.find({ id: req.jwtDecoded.data.id }).then(data => {
                 if (data.length > 0) {
-                    res.status(200).json(data[0]);
+                    res.status(200).json({user:data[0]});
                     log.LogInfo(req.originalUrl);
                 }
                 else {
@@ -43,7 +43,7 @@ exports.getuserlogin = (req, res, next) => {
         else{
             UserTemp.find({id:req.jwtDecoded.data.id }).then(data => {
                 if (data.length > 0) {
-                    res.status(200).json(data[0]);
+                    res.status(200).json({user : data[0]});
                     log.LogInfo(req.originalUrl);
                 }
                 else {
@@ -265,6 +265,32 @@ exports.signup = (req, res, next) => {
     }
 }
 
+exports.login = async(req, res, next) => {
+    try {
+        console.log(req.body);
+        const salt =  parseInt(process.env.SALTROUNDS ,10)
+        bcrypt.hash(req.body.pass, salt, function (err, hash) {
+            console.log(hash);
+            if (err){
+                log.LogError(err, req, res);
+                return res.status(500).json("Tài khoản và mật khẩu không đúng");
+            }
+            User.find({username:req.body.username,pass : hash}).then(data =>{
+                if (data.length >0 ){
+                    log.LogError(err, req, res);
+                    return res.status(200).json({user:data[0]});
+                }
+                else{
+                    log.LogError(err, req, res);
+                    return res.status(500).json("Tài khoản và mật khẩu không đúng");
+                }
+            })
+        })
+    } catch (error) {
+        log.LogError(error, req, res)
+    }
+}
+
 
 //===================================  Creat User Temp   =====================================
 
@@ -293,14 +319,14 @@ exports.creatusertemp = async(req, res, next) => {
             const re = await jwtHellper.generateToken(usertemp, process.env.JWT_SECRET, process.env.JWT_TOKENUSERTEMPLIFE,1);
             const token = new Token({
                 _id: new mongoose.Types.ObjectId(),
-                user: username,
+                user: s,
                 type: 1,
                 token: re,
                 refreshtoken: '',
                 creattime: new Date(),
             })
-            token.save().then();
-            res.status(200).json({ user: usertemp, token : token});
+            token.save();
+            res.status(200).json({ user: usertemp, token : re});
             log.LogInfo(req.originalUrl);
         }).catch(err =>{
             console.log(err);

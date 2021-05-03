@@ -33,9 +33,9 @@ const userRouter = require('./api/router/user');
 const menuRouter = require('./api/router/menu');
 const getDefualtRouter = require('./api/router/getdefualt');
 
-app.use('/user',userRouter);
-app.use('Menu',menuRouter);
-app.use('Getdeafult',getDefualtRouter);
+app.use('/User',userRouter);
+app.use('/Menu',menuRouter);
+app.use('/Getdeafult',getDefualtRouter);
 
 app.use((req, res, next)=>{
     const error = new Error('Not found');
