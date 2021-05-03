@@ -4,7 +4,7 @@ const userSchema = mongoose.Schema({
     _id:mongoose.Schema.Types.ObjectId,
     id: { type: mongoose.Schema.Types.ObjectId, require: true },
     user: { type :mongoose.Schema.Types.ObjectId , ref: "User"},
-    backgroundAvatar: String,
+    backgroundAvatar: {type : String ,default : ""},
     list_emoj: [{ type: mongoose.Schema.Types.ObjectId, ref: "Emoji" }],
     list_messCheckPoint: [{ id :{type : mongoose.Schema.Types.ObjectId,  ref: "Comment" } ,
         room : {type :mongoose.Schema.Types.ObjectId, ref : "ChatRoom"},

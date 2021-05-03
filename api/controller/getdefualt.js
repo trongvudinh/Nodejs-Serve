@@ -59,7 +59,7 @@ exports.Getemoj = (req, res, next)=>{
 
 exports.GetHistoryFindUser = (req, res, next)=>{
     try {
-        UserHistoryFindUser.find({user : req.jwtDecode.data.id}).populate('User',val_Const.select.SELECT_USER).then(data=>{
+        UserHistoryFindUser.find({user : req.jwtDecode.data.id}).populate('user',val_Const.select.SELECT_USER).then(data=>{
             const re = data.map(d=>{
                 return {val:d.finduser , creattime:d.creattime}
             })
