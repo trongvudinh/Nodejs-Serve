@@ -7,7 +7,7 @@ const userSchema = mongoose.Schema({
     name_re: String,
     name_en: String,
     urlavatar: String,
-    abc: {},//{type:0 ,val :"/Catalog"} Link==
+    abc: {},//{type:0 ,val :"/Catalog"} Link== type:0 mac dinh 1 custom link
     type: {},
     id_menu: { type :mongoose.Schema.Types.ObjectId , ref: "Menu"},
     user_creat : { type :mongoose.Schema.Types.ObjectId , ref: "User"},

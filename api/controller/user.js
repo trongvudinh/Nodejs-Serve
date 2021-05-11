@@ -6,6 +6,8 @@ const FuncLib = require('./../FuncLib/FuncLib');
 const mongoose = require('mongoose');
 const bcrypt = require('bcrypt');
 
+const drive = require('./../FuncLib/googledrive');
+
 const Notification = require('./../models/notification');
 const Approved = require('./../models/approved');
 const Token = require('./../models/token');
@@ -59,6 +61,26 @@ exports.getuserlogin = (req, res, next) => {
         log.LogError(error, req, res)
     }
 }
+exports.checkusername = (req, res, next) => {
+    try {
+        User.find({ username: req.params.username }).then(data => {
+            if (data.length > 0) {
+                res.status(200).json({iss:"yes"});
+                log.LogInfo(req.originalUrl);
+            }
+            else {
+                res.status(200).json({iss : "no"});
+                log.LogInfo(req.originalUrl);
+            }
+        }).catch(err => {
+            res.status(500).json({ error: err });
+            log.LogError(err, req, res);
+        })
+        
+    } catch (error) {
+        log.LogError(error, req, res)
+    }
+}
 // =========== GetNotification + Approved===============================================================
 exports.GetNotification = (req, res, next) => {
     try {
@@ -72,14 +94,15 @@ exports.GetNotification = (req, res, next) => {
             const re = data.map((d, index) => {
                 return { ...d, admin: d.isto_admin, isnoti: 0 };
             })
-            var find_cont = leveluser >= 7 ? { user: $in[val_Const.idadmin.IDNOTINOTSEEN, req.jwtDecoded.data.id] } : { user: req.jwtDecoded.data.id };
+            var find_cont = leveluser >= 7 ? { user:{ $in :[val_Const.idadmin.IDNOTINOTSEEN, req.jwtDecoded.data.id] }} : { user: req.jwtDecoded.data.id };
             var count_seen = await NotiNotSeen.find(find_cont);
             const re_count = count_seen.noti_notseen + count_seen.app_notseen;
             res.status(200).json({ Approved: re, CountNotSeen: re_count });
             log.LogInfo(req.originalUrl);
         }).catch(err => {
             res.status(500).json({ error: err });
-            log.LogError(err, req, res);
+            console.log(err.message)
+            log.LogError(err.message, req, res);
         })
     } catch (error) {
         log.LogError(error, req, res)
@@ -97,7 +120,7 @@ exports.GetApproved = (req, res, next) => {
             const re = data.map((d, index) => {
                 return { ...d, admin: d.isto_admin, isnoti: 1 };
             })
-            var find_cont = leveluser >= 7 ? { user: $in[val_Const.idadmin.IDNOTINOTSEEN, req.jwtDecoded.data.id] } : { user: req.jwtDecoded.data.id };
+            var find_cont = leveluser >= 7 ? { user: {$in : [val_Const.idadmin.IDNOTINOTSEEN, req.jwtDecoded.data.id] }} : { user: req.jwtDecoded.data.id };
             var count_seen = await NotiNotSeen.find(find_cont);
             const re_count = count_seen.noti_notseen + count_seen.app_notseen;
             res.status(200).json({ Approved: re, CountNotSeen: re_count });
@@ -176,7 +199,10 @@ exports.signup = (req, res, next) => {
     try {
 
         const salt =  parseInt(process.env.SALTROUNDS ,10)
-        bcrypt.hash(req.body.pass, salt, async function (err, hash) {
+        console.log(salt);
+        console.log(req.body.pass.toString());
+        bcrypt.hash(req.body.pass.trim(), salt, async function (err, hash) {
+            console.log(hash);
             if (err || (req.body.username.trim() == "") || (req.body.pass.trim() == "")){
                 log.LogError("Username không hợp lệ", req, res);
                 return res.status(500).json({err:"Request không hợp lệ"});
@@ -196,7 +222,7 @@ exports.signup = (req, res, next) => {
                 urlavatar: "",
                 background: '',
                 email: req.body.email,
-                britday: new Date(req.body.britday),
+                britday: new Date(req.body.birtday),
                 thanhpho: req.body.thanhpho,
                 diachi: req.body.diachi,
                 hoten: req.body.hoten,
@@ -216,7 +242,7 @@ exports.signup = (req, res, next) => {
                 status: 0 
             })
             user.save()
-            .then( data =>{
+            .then( async data =>{
                 const id_useractive = mongoose.Types.ObjectId();
                 // ==============================================     user Active    ============================
                 const useractive = new UserActive({
@@ -256,7 +282,18 @@ exports.signup = (req, res, next) => {
                     status:0
                 })
                 usernotsseen.save();
-                return res.status(200).json({User:user})
+                console.log( process.env.JWT_SECRET, process.env.JWT_TOKENLIFE)
+                const re = await jwtHellper.generateToken(user, process.env.JWT_SECRET, process.env.JWT_TOKENLIFE,0);
+                const token = new Token({
+                    _id: new mongoose.Types.ObjectId(),
+                    user: user.id,
+                    type: 0,
+                    token: re,
+                    refreshtoken: '',
+                    creattime: new Date(),
+                })
+                const ress = await token.save();
+                return res.status(200).json({User:user, tokensingup : re})
             })
             .catch()
         });
@@ -267,24 +304,37 @@ exports.signup = (req, res, next) => {
 
 exports.login = async(req, res, next) => {
     try {
-        console.log(req.body);
+        console.log(req.body.pass);
         const salt =  parseInt(process.env.SALTROUNDS ,10)
-        bcrypt.hash(req.body.pass, salt, function (err, hash) {
-            console.log(hash);
-            if (err){
+        console.log(salt);
+        User.find({username:req.body.username}).then(data =>{
+            if (data.length >0 ){
+                bcrypt.compare(req.body.pass, data[0].pass, async function(err, result) {
+                    if (err || !result){
+                        log.LogError(err, req, res);
+                        return res.status(500).json("Tài khoản và mật khẩu không đúng");
+                    }
+                    else {
+                        const re = await jwtHellper.generateToken(data[0], process.env.JWT_SECRET, process.env.JWT_TOKENLIFE,0);
+                        const re2 = await jwtHellper.generateToken(data[0], process.env.JWT_SECRET, process.env.JWT_REFRESHTOKENLIFE,0);
+                        const token = new Token({
+                            _id: new mongoose.Types.ObjectId(),
+                            user: data[0].id,
+                            type: 0,
+                            token: re,
+                            refreshtoken: re2,
+                            creattime: new Date(),
+                        })
+                        const ress2 = await token.save();
+                        log.LogInfo(err, req, res);
+                        return res.status(200).json({user:data[0],token :re ,refreshtoken:re2});
+                    }
+                });
+            }
+            else{
                 log.LogError(err, req, res);
                 return res.status(500).json("Tài khoản và mật khẩu không đúng");
             }
-            User.find({username:req.body.username,pass : hash}).then(data =>{
-                if (data.length >0 ){
-                    log.LogError(err, req, res);
-                    return res.status(200).json({user:data[0]});
-                }
-                else{
-                    log.LogError(err, req, res);
-                    return res.status(500).json("Tài khoản và mật khẩu không đúng");
-                }
-            })
         })
     } catch (error) {
         log.LogError(error, req, res)
@@ -296,12 +346,12 @@ exports.login = async(req, res, next) => {
 
 exports.creatusertemp = async(req, res, next) => {
     try {
-        const name = await FuncLib.randomname();
-        const urlavatar = await FuncLib.randomavatar();
+        const name = await FuncLib.randomName();
+        const urlavatar = await FuncLib.randomAvatar();
         const username = FuncLib.randomUserTempId();
         console.log('username -',username);
         const  s= mongoose.Types.ObjectId();
-        const usertemp = new UserTemp({
+        const userTemp = new UserTemp({
             _id:s,
             id: s,
             username: username,
@@ -315,8 +365,8 @@ exports.creatusertemp = async(req, res, next) => {
             lst_commentdislike:[],
             status: 0
         });
-        usertemp.save().then(async data=>{
-            const re = await jwtHellper.generateToken(usertemp, process.env.JWT_SECRET, process.env.JWT_TOKENUSERTEMPLIFE,1);
+        userTemp.save().then(async data=>{
+            const re = await jwtHellper.generateToken(userTemp, process.env.JWT_SECRET, process.env.JWT_TOKENUSERTEMPLIFE,1);
             const token = new Token({
                 _id: new mongoose.Types.ObjectId(),
                 user: s,
@@ -326,7 +376,7 @@ exports.creatusertemp = async(req, res, next) => {
                 creattime: new Date(),
             })
             token.save();
-            res.status(200).json({ user: usertemp, token : re});
+            res.status(200).json({ user: userTemp, token : re});
             log.LogInfo(req.originalUrl);
         }).catch(err =>{
             console.log(err);
@@ -352,7 +402,7 @@ exports.refreshtoken = async(req, res, next) => {
                 refreshtoken: '',
                 creattime: new Date(),
             })
-            token.save().then();
+            const ress = await token.save().then();
             res.status(200).json({ token: re });
             log.LogInfo(req.originalUrl);
         }).catch(err => {
@@ -396,4 +446,11 @@ exports.getuser = (req, res, next) => {
     console.log(b);
     var d = (a-b); // Difference in milliseconds.
     res.status(200).json({ok:d})
+}
+exports.test = (req, res, next) => {
+    // User.updateOne({id: '60859615e1a93c3348d38ba2'},{lst_friend:[{id:'6085960db543e0451cb92740', creattime:new Date()},{id:'608596078d03ac37f41ac105', creattime:new Date()}]})
+   console.log(req.params);
+    console.log(req.files.f)
+     drive.test();
+    res.status(200).json()
 }

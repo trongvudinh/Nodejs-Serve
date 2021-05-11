@@ -6,12 +6,14 @@ const UserController = require('./../controller/user');
 const UserActiveController = require('./../controller/user_active');
 const UserSettingController = require('./../controller/user_setting');
 const TokenController = require('./../middleware/token');
+const uploadFile = require('./../controller/uploadfile');
 
 //=======================================      GET     =========================================================
 //=======================================      GET     =========================================================
 //=======================================      GET     =========================================================
 //=======================================      GET     =========================================================
 router.get('/getuserlogin',TokenController.is_token,UserController.getuserlogin);
+router.get('/checkusername/:username',UserController.checkusername);
 router.get('/GetNotification/:limit',TokenController.is_user,UserController.GetNotification);
 router.get('/GetApproved/:limit',TokenController.is_user,UserController.GetApproved);
 router.get('/getaproved_send',TokenController.is_user,UserController.getaproved_send);
@@ -39,6 +41,8 @@ router.post('/signup',UserController.signup);
 router.post('/login',UserController.login);
 router.post('/creatusertemp',UserController.creatusertemp);
 router.post('/refreshtoken',TokenController.is_user,UserController.refreshtoken);
+router.post('/ChangeAvatar',TokenController.is_user,uploadFile.uploadUserAvatar);
+router.post('/test',UserController.test);
 
 
 
