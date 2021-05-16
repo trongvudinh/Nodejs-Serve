@@ -32,10 +32,14 @@ app.use(upload_file());
 const userRouter = require('./api/router/user');
 const menuRouter = require('./api/router/menu');
 const getDefualtRouter = require('./api/router/getdefualt');
+const tagRouter = require('./api/router/tag');
+const actorRouter = require('./api/router/actor');
 
 app.use('/User',userRouter);
 app.use('/Menu',menuRouter);
 app.use('/Getdeafult',getDefualtRouter);
+app.use('/Tag',tagRouter);
+app.use('/Actor',actorRouter);
 
 app.use((req, res, next)=>{
     const error = new Error('Not found');

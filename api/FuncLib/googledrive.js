@@ -12,7 +12,7 @@ const mongoose = require('mongoose');
 const CLIENT_ID = '1030043852361-ouafeai2f4662jnkk9julgf3337cqtne.apps.googleusercontent.com';
 const CLIENT_SECRET = 'MycSX3m0sBnldjFEHhjZ8sx5';
 const REDIRECT_URI = 'https://developers.google.com/oauthplayground';
-const REFRESH_TOKEN = '1//04sRMng4aNkqeCgYIARAAGAQSNwF-L9Ir3rihfNjDwik9l0b2-d4nGJOq6OXKvO7U3ggwuEzIvT4vcUqRmLOsHDBA_8sOdMYnqNE';
+const REFRESH_TOKEN = '1//04D9ucLWZxEFJCgYIARAAGAQSNwF-L9Irzl8w-LaCaPPq2F4lIYamcirNWrxExpsZUGBJ0tLHrp0vmq9sntQ7IFFP94eiNOkfG5A';
 
 const oauth2Client = new google.auth.OAuth2(
     CLIENT_ID,
@@ -41,7 +41,7 @@ const getFolderId = async(location)=>{
     });
     if (check) return ""; else return f[0].id;
 }
-const AddFileData = async (data,userid,location,size)=>{
+const AddFileData = async (data,userid,location,size,key)=>{
    try {
     const r = await getFolderId(location);
     const df = new driveFile({
@@ -52,6 +52,7 @@ const AddFileData = async (data,userid,location,size)=>{
         fileid : data.id,
         fieldname : data.name,
         creattime:new Date(),
+        key:key,
     })
     df.save();
     DriveToken.update({}, { $inc: { totalvalue: size } });   
@@ -60,7 +61,7 @@ const AddFileData = async (data,userid,location,size)=>{
    }
 }
 
-const uploadFile = async(file,filename,userid,location)=>{
+const uploadFile = async(file,filename,userid,location,key)=>{
     try {
         var myReadableStreamBuffer = new streamBuffers.Readable({
             read() {
@@ -83,7 +84,7 @@ const uploadFile = async(file,filename,userid,location)=>{
             },
         });
         console.log(response.data);
-        AddFileData(response.data,userid,location,file.size);
+        AddFileData(response.data,userid,location,file.size,key);
         console.log('111');
         return {status:'ok', data:response.data}
 
@@ -107,7 +108,14 @@ const publicUrl = async(id)=>{
 }
 
 const  test = async ()=>{
-    getfolderid('upload.avatar.user');
+    try{
+        const re = await drive.files.list({q : `'1X766A864VdSLzQGOyRaa69YqmUTBIN6y' in parents`});
+        console.log(re.data);
+        return re.data;
+
+    }catch(error){
+        console.log(error)
+    }
 }
 const checkLimitUsage = async ()=>{
     const re = await drive.about.get({fields :'storageQuota' });

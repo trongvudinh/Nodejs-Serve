@@ -3,6 +3,7 @@ const log = require('./../FuncLib/FuncLog');
 const jwtHellper = require('./../FuncLib/token');
 const val_Const = require('./../const/index');
 const FuncLib = require('./../FuncLib/FuncLib');
+const jwtHelper = require("./../FuncLib/token");
 const mongoose = require('mongoose');
 const bcrypt = require('bcrypt');
 
@@ -17,7 +18,7 @@ const UserActive = require('./../models/user_active');
 const UserFile = require('./../models/user_file');
 const NotiNotSeen = require('./../models/noti_notseen');
 const UserTemp = require('./../models/user_temp');
-const UserRefreshToken = require('./../models/user_refreshtoken');
+const UserToken = require('./../models/token');
 
 //=============================================GET=========================================================
 //=============================================GET=========================================================
@@ -332,7 +333,7 @@ exports.login = async(req, res, next) => {
                 });
             }
             else{
-                log.LogError(err, req, res);
+                log.LogError("", req, res);
                 return res.status(500).json("Tài khoản và mật khẩu không đúng");
             }
         })
@@ -390,25 +391,48 @@ exports.creatusertemp = async(req, res, next) => {
 exports.refreshtoken = async(req, res, next) => {
     try {
         // const re = await UserRefreshToken.find({user : req.jwtDecoded.data.id}).sort({creattime : -1}).limit(1);
+        const decoded = await jwtHelper.verifyToken(req.body.refreshtoken, process.env.JWT_SECRET);
 
-
-        User.find({ id: req.jwtDecoded.data.id, status: 0 }).select(val_Const.select.SELECT_USER).then(async data => {
-            const re = await jwtHellper.generateToken(data[0], process.env.JWT_SECRET, process.env.JWT_TOKENLIFE,0);
-            const token = new Token({
-                _id: new mongoose.Types.ObjectId(),
-                user: data[0].id,
-                type: 0,
-                token: re,
-                refreshtoken: '',
-                creattime: new Date(),
+        if (decoded.data.type == 1){
+            log.LogError('Unauthorized',req,res);
+            return res.status(401).json({
+                message: 'Unauthorized.',
+            });
+        }
+        const re = await UserToken.find({user : decoded.data.id  , type :decoded.data.type,refreshtoken : req.body.refreshtoken});
+        if (re.length > 0){
+            User.find({ id: decoded.data.id, status: 0 }).then(async data => {
+                if (data.length>0){
+                    const re = await jwtHellper.generateToken(data[0], process.env.JWT_SECRET, process.env.JWT_TOKENLIFE,0);
+                    const token = new Token({
+                        _id: new mongoose.Types.ObjectId(),
+                        user: data[0].id,
+                        type: 0,
+                        token: re,
+                        refreshtoken: '',
+                        creattime: new Date(),
+                    })
+                    const ress = await token.save().then();
+                    res.status(200).json({ token: re });
+                    log.LogInfo(req.originalUrl);
+                }else{
+                    log.LogError('Unauthorized',req,res);
+                    return res.status(401).json({
+                    message: 'Unauthorized.',
+                    });
+                }
+                
+            }).catch(err => {
+                res.status(500).json({ error: err });
+                log.LogError(err, req, res);
             })
-            const ress = await token.save().then();
-            res.status(200).json({ token: re });
-            log.LogInfo(req.originalUrl);
-        }).catch(err => {
-            res.status(500).json({ error: err });
-            log.LogError(err, req, res);
-        })
+        }else{
+            log.LogError('Unauthorized',req,res);
+            return res.status(401).json({
+                message: 'Unauthorized.',
+            });
+        }
+        
     } catch (error) {
         log.LogError(error, req, res)
     }
@@ -447,10 +471,10 @@ exports.getuser = (req, res, next) => {
     var d = (a-b); // Difference in milliseconds.
     res.status(200).json({ok:d})
 }
-exports.test = (req, res, next) => {
+exports.test = async (req, res, next) => {
     // User.updateOne({id: '60859615e1a93c3348d38ba2'},{lst_friend:[{id:'6085960db543e0451cb92740', creattime:new Date()},{id:'608596078d03ac37f41ac105', creattime:new Date()}]})
    console.log(req.params);
     console.log(req.files.f)
-     drive.test();
-    res.status(200).json()
+    const ss = await drive.test();
+    res.status(200).json(ss)
 }

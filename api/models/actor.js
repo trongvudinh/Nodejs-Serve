@@ -4,10 +4,10 @@ const userSchema = mongoose.Schema({
     _id:mongoose.Schema.Types.ObjectId,
     id: { type: mongoose.Schema.Types.ObjectId, require: true },
     name: { type: String, require: true },
-    famail: {},//{val:0,type:}
+    famail: Number,//0:nu,1:nam
     urlavatar: String,
     content: String,
-    type: {},
+    type: Number,
     birtday: Date,
     user_creat : { type :mongoose.Schema.Types.ObjectId , ref: "User"},
     creattime:Date,

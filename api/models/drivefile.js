@@ -7,6 +7,7 @@ const userSchema = mongoose.Schema({
     location:String,
     fileid : String,
     fieldname:String,
+    key:{},
     creattime:Date,
 })
 module.exports = mongoose.model('DriveFile', userSchema, 'T_DRIVE_FILE');

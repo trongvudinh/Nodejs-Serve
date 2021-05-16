@@ -20,7 +20,7 @@ exports.listReport = (req, res, next)=>{
             log.LogInfo(err , req, res);
         })
     } catch (error) {
-        log.LogError(error, req, res)
+        log.LogError(error , req, res)
     }
 }
 

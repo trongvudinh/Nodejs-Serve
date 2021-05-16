@@ -18,10 +18,10 @@ exports.LogInfo = (data)=>{
         
     }
 }
-exports.LogError = (data,req , res)=>{
+exports.LogError = (err,req , res)=>{
     try {
         log.error(new Error(JSON.stringify({
-            data:data,
+            data:err.message ? err.message :err,
             request:{url : req.originalUrl,header:req.headers , body: req.body , params : req.params},
         })));   
     } catch (error) {

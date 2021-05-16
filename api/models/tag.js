@@ -9,5 +9,6 @@ const userSchema = mongoose.Schema({
     creattime: Date,
     user_creat:{ type :mongoose.Schema.Types.ObjectId , ref: "User"},
     updatetime: Date,
+    status :{type :Number,default : 0}
 })
 module.exports = mongoose.model('Tag', userSchema, 'T_TAG');

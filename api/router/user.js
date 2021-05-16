@@ -40,7 +40,7 @@ router.get('/getusersetting',TokenController.is_user,UserSettingController.getus
 router.post('/signup',UserController.signup);
 router.post('/login',UserController.login);
 router.post('/creatusertemp',UserController.creatusertemp);
-router.post('/refreshtoken',TokenController.is_user,UserController.refreshtoken);
+router.post('/refreshtoken',UserController.refreshtoken);
 router.post('/ChangeAvatar',TokenController.is_user,uploadFile.uploadUserAvatar);
 router.post('/test',UserController.test);
 
