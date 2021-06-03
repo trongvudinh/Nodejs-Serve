@@ -6,6 +6,7 @@ const userSchema = mongoose.Schema({
     name : String,
     name_re : String,
     urlavatar : String,
+    countMov:{type:Number ,default :0},
     user_creat : { type :mongoose.Schema.Types.ObjectId , ref: "User"},
     user_update : { type :mongoose.Schema.Types.ObjectId , ref: "User"},
     creattime:Date,

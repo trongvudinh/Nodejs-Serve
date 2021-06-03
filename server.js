@@ -2,6 +2,7 @@ const http = require('http');
 const app = require('./app');
 const server = http.createServer(app);
 const socketio = require('socket.io');
+const realtime =require('./realtime/realtime');
 const log = require('./api/FuncLib/FuncLog');
 
 server.listen(3001,function(){
@@ -10,21 +11,6 @@ server.listen(3001,function(){
 });
 
 const io = socketio.listen(server);
-io.on('connection', (socket) => {
-    console.log('wwwww : '+socket.id);
+realtime.realtime(io);
 
-    socket.on('join', (data) => {
-        console.log(data);
-        // callback();
-    });
-
-    socket.on('sendMessage', (message, callback) => {
-        console.log(message);
-
-        callback();
-    });
-
-    socket.on('disconnect', () => {
-        console.log('coneevct');
-    })
-});
+exports.io = io;

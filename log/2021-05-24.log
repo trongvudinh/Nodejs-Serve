@@ -1,0 +1,47 @@
+{"timestamp":"2021-05-24 19:15:59","level":"info",message:{"data":"Server Start"}}
+{"timestamp":"2021-05-24 19:16:32","level":"info",message:{"data":"Server Start"}}
+{"timestamp":"2021-05-24 19:18:31","level":"info",message:{"data":"/User/refreshtoken"}}
+{"timestamp":"2021-05-24 19:18:31","level":"info",message:{"data":"/User/creatusertemp"}}
+{"timestamp":"2021-05-24 19:48:47","level":"info",message:{}}
+{"timestamp":"2021-05-24 19:48:48","level":"info",message:{"data":"/Getdeafult/listReport"}}
+{"timestamp":"2021-05-24 19:48:48","level":"info",message:{"data":"/Getdeafult/Getemoj"}}
+{"timestamp":"2021-05-24 19:48:48","level":"info",message:{"data":"/Getdeafult/get_lst_bieucamimg"}}
+{"timestamp":"2021-05-24 19:48:48","level":"info",message:{"data":"/User/getlistemoj"}}
+{"timestamp":"2021-05-24 19:48:48","level":"info",message:{"data":"/User/getHistoryEmoj"}}
+{"timestamp":"2021-05-24 19:48:48","level":"info",message:{"data":"/User/GetListBlockUser"}}
+{"timestamp":"2021-05-24 19:48:48","level":"info",message:{"data":"/User/getusersetting"}}
+{"timestamp":"2021-05-24 19:48:48","level":"info",message:{"data":"/User/GetListUserBlockMe"}}
+{"timestamp":"2021-05-24 19:48:48","level":"info",message:{"data":"/User/getaproved_send"}}
+{"timestamp":"2021-05-24 19:48:48","level":"info",message:{"data":"/User/GetNotification/0"}}
+{"timestamp":"2021-05-24 19:48:49","level":"info",message:{"data":"/User/GetApproved/0"}}
+{"timestamp":"2021-05-24 19:48:53","level":"info",message:{"data":"/User/getuserlogin"}}
+{"timestamp":"2021-05-24 19:48:53","level":"info",message:{"data":"/User/GetNotification/0"}}
+{"timestamp":"2021-05-24 19:48:53","level":"info",message:{"data":"/User/GetApproved/0"}}
+{"timestamp":"2021-05-24 19:48:53","level":"info",message:{"data":"/User/refreshtoken"}}
+{"timestamp":"2021-05-24 19:48:54","level":"info",message:{"data":"/User/getuserlogin"}}
+{"timestamp":"2021-05-24 19:48:55","level":"info",message:{"data":"/Getdeafult/get_lst_bieucamimg"}}
+{"timestamp":"2021-05-24 19:48:55","level":"info",message:{"data":"/Getdeafult/listReport"}}
+{"timestamp":"2021-05-24 19:48:55","level":"info",message:{"data":"/User/getlistemoj"}}
+{"timestamp":"2021-05-24 19:48:55","level":"info",message:{"data":"/User/getHistoryEmoj"}}
+{"timestamp":"2021-05-24 19:48:55","level":"info",message:{"data":"/Getdeafult/Getemoj"}}
+{"timestamp":"2021-05-24 19:48:55","level":"info",message:{"data":"/User/GetApproved/0"}}
+{"timestamp":"2021-05-24 19:48:56","level":"info",message:{"data":"/User/GetNotification/0"}}
+{"timestamp":"2021-05-24 19:48:56","level":"info",message:{"data":"/User/GetListBlockUser"}}
+{"timestamp":"2021-05-24 19:48:56","level":"info",message:{"data":"/User/getaproved_send"}}
+{"timestamp":"2021-05-24 19:48:56","level":"info",message:{"data":"/User/GetListUserBlockMe"}}
+{"timestamp":"2021-05-24 19:48:56","level":"info",message:{"data":"/User/getusersetting"}}
+{"timestamp":"2021-05-24 19:52:43","level":"info",message:{"data":"Server Start"}}
+{"timestamp":"2021-05-24 19:54:04","level":"info",message:{"data":"Server Start"}}
+{"timestamp":"2021-05-24 19:54:24","level":"info",message:{"data":"Server Start"}}
+{"timestamp":"2021-05-24 20:01:52","level":"info",message:{"data":"Server Start"}}
+{"timestamp":"2021-05-24 20:03:44","level":"info",message:{"data":"/User/refreshtoken"}}
+{"timestamp":"2021-05-24 20:06:06","level":"info",message:{"data":"Server Start"}}
+{"timestamp":"2021-05-24 20:08:16","level":"info",message:{"data":"Server Start"}}
+{"timestamp":"2021-05-24 20:14:59","level":"info",message:{"data":"Server Start"}}
+{"timestamp":"2021-05-24 20:15:25","level":"info",message:{"data":"Server Start"}}
+{"timestamp":"2021-05-24 20:16:43","level":"info",message:{"data":"Server Start"}}
+{"timestamp":"2021-05-24 20:18:34","level":"info",message:{"data":"/User/refreshtoken"}}
+{"timestamp":"2021-05-24 20:19:43","level":"info",message:{"data":"Server Start"}}
+{"timestamp":"2021-05-24 20:19:51","level":"info",message:{"data":"Server Start"}}
+{"timestamp":"2021-05-24 20:21:23","level":"info",message:{"data":"Server Start"}}
+{"timestamp":"2021-05-24 20:22:43","level":"info",message:{"data":"Server Start"}}

@@ -1,0 +1,436 @@
+{"timestamp":"2021-05-19 20:19:34","level":"info",message:{"data":"Server Start"}}
+{"timestamp":"2021-05-19 20:21:46","level":"info",message:{"data":"Server Start"}}
+{"timestamp":"2021-05-19 20:21:56","level":"info",message:{"data":"Server Start"}}
+{"timestamp":"2021-05-19 20:22:09","level":"info",message:{"data":"Server Start"}}
+{"timestamp":"2021-05-19 20:22:20","level":"info",message:{"data":"Server Start"}}
+{"timestamp":"2021-05-19 20:22:28","level":"info",message:{"data":"/Menu"}}
+{"timestamp":"2021-05-19 20:22:28","level":"info",message:{"data":"/User/refreshtoken"}}
+{"timestamp":"2021-05-19 20:22:29","level":"info",message:{"data":"/User/creatusertemp"}}
+{"timestamp":"2021-05-19 20:22:43","level":"info",message:{"data":"Server Start"}}
+{"timestamp":"2021-05-19 20:23:50","level":"info",message:{"data":"Server Start"}}
+{"timestamp":"2021-05-19 20:24:53","level":"info",message:{}}
+{"timestamp":"2021-05-19 20:24:53","level":"info",message:{"data":"/Getdeafult/listReport"}}
+{"timestamp":"2021-05-19 20:24:54","level":"info",message:{"data":"/Getdeafult/get_lst_bieucamimg"}}
+{"timestamp":"2021-05-19 20:24:54","level":"info",message:{"data":"/Getdeafult/Getemoj"}}
+{"timestamp":"2021-05-19 20:24:55","level":"info",message:{"data":"/User/getlistemoj"}}
+{"timestamp":"2021-05-19 20:24:55","level":"info",message:{"data":"/User/getHistoryEmoj"}}
+{"timestamp":"2021-05-19 20:24:55","level":"info",message:{"data":"/User/GetListBlockUser"}}
+{"timestamp":"2021-05-19 20:24:55","level":"info",message:{"data":"/User/GetListUserBlockMe"}}
+{"timestamp":"2021-05-19 20:24:55","level":"info",message:{"data":"/User/getusersetting"}}
+{"timestamp":"2021-05-19 20:24:55","level":"info",message:{"data":"/User/getaproved_send"}}
+{"timestamp":"2021-05-19 20:24:55","level":"info",message:{"data":"/User/GetApproved/0"}}
+{"timestamp":"2021-05-19 20:24:55","level":"info",message:{"data":"/User/GetNotification/0"}}
+{"timestamp":"2021-05-19 20:24:57","level":"info",message:{"data":"/User/getuserlogin"}}
+{"timestamp":"2021-05-19 20:24:58","level":"info",message:{"data":"/User/GetNotification/0"}}
+{"timestamp":"2021-05-19 20:24:58","level":"info",message:{"data":"/User/GetApproved/0"}}
+{"timestamp":"2021-05-19 20:24:58","level":"info",message:{"data":"/User/refreshtoken"}}
+{"timestamp":"2021-05-19 20:24:58","level":"info",message:{"data":"/User/getuserlogin"}}
+{"timestamp":"2021-05-19 20:24:58","level":"info",message:{"data":"/User/getlistemoj"}}
+{"timestamp":"2021-05-19 20:24:58","level":"info",message:{"data":"/User/getHistoryEmoj"}}
+{"timestamp":"2021-05-19 20:24:58","level":"info",message:{"data":"/User/GetListBlockUser"}}
+{"timestamp":"2021-05-19 20:24:58","level":"info",message:{"data":"/User/GetListUserBlockMe"}}
+{"timestamp":"2021-05-19 20:24:58","level":"info",message:{"data":"/Getdeafult/listReport"}}
+{"timestamp":"2021-05-19 20:24:58","level":"info",message:{"data":"/Getdeafult/get_lst_bieucamimg"}}
+{"timestamp":"2021-05-19 20:24:58","level":"info",message:{"data":"/User/getusersetting"}}
+{"timestamp":"2021-05-19 20:24:58","level":"info",message:{"data":"/Getdeafult/Getemoj"}}
+{"timestamp":"2021-05-19 20:24:58","level":"info",message:{"data":"/User/getaproved_send"}}
+{"timestamp":"2021-05-19 20:24:59","level":"info",message:{"data":"/User/GetApproved/0"}}
+{"timestamp":"2021-05-19 20:24:59","level":"info",message:{"data":"/User/GetNotification/0"}}
+{"timestamp":"2021-05-19 20:27:43","level":"info",message:{"data":"/User/getuserlogin"}}
+{"timestamp":"2021-05-19 20:27:43","level":"info",message:{"data":"/User/GetNotification/0"}}
+{"timestamp":"2021-05-19 20:27:43","level":"info",message:{"data":"/User/GetApproved/0"}}
+{"timestamp":"2021-05-19 20:27:43","level":"info",message:{"data":"/User/refreshtoken"}}
+{"timestamp":"2021-05-19 20:27:43","level":"info",message:{"data":"/User/getuserlogin"}}
+{"timestamp":"2021-05-19 20:27:45","level":"info",message:{"data":"/Getdeafult/listReport"}}
+{"timestamp":"2021-05-19 20:27:45","level":"info",message:{"data":"/Getdeafult/Getemoj"}}
+{"timestamp":"2021-05-19 20:27:45","level":"info",message:{"data":"/Getdeafult/get_lst_bieucamimg"}}
+{"timestamp":"2021-05-19 20:27:45","level":"info",message:{"data":"/User/getlistemoj"}}
+{"timestamp":"2021-05-19 20:27:46","level":"info",message:{"data":"/User/GetNotification/0"}}
+{"timestamp":"2021-05-19 20:27:46","level":"info",message:{"data":"/User/GetApproved/0"}}
+{"timestamp":"2021-05-19 20:27:46","level":"info",message:{"data":"/User/GetListBlockUser"}}
+{"timestamp":"2021-05-19 20:27:46","level":"info",message:{"data":"/User/getHistoryEmoj"}}
+{"timestamp":"2021-05-19 20:27:46","level":"info",message:{"data":"/User/GetListUserBlockMe"}}
+{"timestamp":"2021-05-19 20:27:46","level":"info",message:{"data":"/User/getusersetting"}}
+{"timestamp":"2021-05-19 20:27:46","level":"info",message:{"data":"/User/getaproved_send"}}
+{"timestamp":"2021-05-19 20:30:12","level":"info",message:{"data":"Server Start"}}
+{"timestamp":"2021-05-19 20:42:33","level":"info",message:{"data":"/User/refreshtoken"}}
+{"timestamp":"2021-05-19 20:46:06","level":"info",message:{"data":"Server Start"}}
+{"timestamp":"2021-05-19 20:48:20","level":"info",message:{"data":"Server Start"}}
+{"timestamp":"2021-05-19 20:48:49","level":"info",message:{"data":"Server Start"}}
+{"timestamp":"2021-05-19 20:50:00","level":"info",message:{"data":"Server Start"}}
+{"timestamp":"2021-05-19 20:57:23","level":"info",message:{"data":"/User/refreshtoken"}}
+{"timestamp":"2021-05-19 20:57:55","level":"info",message:{"data":"Server Start"}}
+{"timestamp":"2021-05-19 20:58:39","level":"info",message:{"data":"Server Start"}}
+{"timestamp":"2021-05-19 20:59:09","level":"info",message:{"data":"Server Start"}}
+{"timestamp":"2021-05-19 21:12:14","level":"info",message:{"data":"/User/refreshtoken"}}
+{"timestamp":"2021-05-19 21:19:04","level":"info",message:{"data":"/User/getuserlogin"}}
+{"timestamp":"2021-05-19 21:19:05","level":"info",message:{"data":"/User/GetNotification/0"}}
+{"timestamp":"2021-05-19 21:19:05","level":"info",message:{"data":"/User/GetApproved/0"}}
+{"timestamp":"2021-05-19 21:19:05","level":"info",message:{"data":"/User/refreshtoken"}}
+{"timestamp":"2021-05-19 21:19:05","level":"info",message:{"data":"/User/getuserlogin"}}
+{"timestamp":"2021-05-19 21:19:37","level":"info",message:{"data":"/Getdeafult/Getemoj"}}
+{"timestamp":"2021-05-19 21:19:37","level":"info",message:{"data":"/Getdeafult/listReport"}}
+{"timestamp":"2021-05-19 21:19:37","level":"info",message:{"data":"/Getdeafult/get_lst_bieucamimg"}}
+{"timestamp":"2021-05-19 21:19:38","level":"info",message:{"data":"/User/getHistoryEmoj"}}
+{"timestamp":"2021-05-19 21:19:38","level":"info",message:{"data":"/User/getlistemoj"}}
+{"timestamp":"2021-05-19 21:19:38","level":"info",message:{"data":"/User/GetListBlockUser"}}
+{"timestamp":"2021-05-19 21:19:38","level":"info",message:{"data":"/User/getusersetting"}}
+{"timestamp":"2021-05-19 21:19:38","level":"info",message:{"data":"/User/GetListUserBlockMe"}}
+{"timestamp":"2021-05-19 21:19:38","level":"info",message:{"data":"/User/GetNotification/0"}}
+{"timestamp":"2021-05-19 21:19:40","level":"info",message:{"data":"/User/getuserlogin"}}
+{"timestamp":"2021-05-19 21:19:40","level":"info",message:{"data":"/User/GetNotification/0"}}
+{"timestamp":"2021-05-19 21:19:40","level":"info",message:{"data":"/User/GetApproved/0"}}
+{"timestamp":"2021-05-19 21:19:40","level":"info",message:{"data":"/User/refreshtoken"}}
+{"timestamp":"2021-05-19 21:19:40","level":"info",message:{"data":"/User/getuserlogin"}}
+{"timestamp":"2021-05-19 21:19:41","level":"info",message:{"data":"/Getdeafult/listReport"}}
+{"timestamp":"2021-05-19 21:19:41","level":"info",message:{"data":"/User/getlistemoj"}}
+{"timestamp":"2021-05-19 21:19:41","level":"info",message:{"data":"/Getdeafult/get_lst_bieucamimg"}}
+{"timestamp":"2021-05-19 21:19:41","level":"info",message:{"data":"/User/getHistoryEmoj"}}
+{"timestamp":"2021-05-19 21:19:41","level":"info",message:{"data":"/User/GetListUserBlockMe"}}
+{"timestamp":"2021-05-19 21:19:41","level":"info",message:{"data":"/User/GetListBlockUser"}}
+{"timestamp":"2021-05-19 21:19:41","level":"info",message:{"data":"/User/getusersetting"}}
+{"timestamp":"2021-05-19 21:19:41","level":"info",message:{"data":"/Getdeafult/Getemoj"}}
+{"timestamp":"2021-05-19 21:19:42","level":"info",message:{"data":"/User/getaproved_send"}}
+{"timestamp":"2021-05-19 21:19:42","level":"info",message:{"data":"/User/GetNotification/0"}}
+{"timestamp":"2021-05-19 21:19:42","level":"info",message:{"data":"/User/GetApproved/0"}}
+{"timestamp":"2021-05-19 21:21:40","level":"info",message:{"data":"Server Start"}}
+{"timestamp":"2021-05-19 21:21:46","level":"info",message:{"data":"Server Start"}}
+{"timestamp":"2021-05-19 21:28:05","level":"info",message:{"data":"Server Start"}}
+{"timestamp":"2021-05-19 21:28:18","level":"error",message:{"data":"Cannot read property 'name' of undefined","request":{"url":"/Actor/uploadfile/60a5208179de240b84f684ee","header":{"host":"localhost:3001","connection":"keep-alive","content-length":"54313","sec-ch-ua":"\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"90\", \"Google Chrome\";v=\"90\"","accept":"application/json, text/plain, */*","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7ImlkIjoiNjA5OGQ1NDEyZTFkOWQyNjY0OGI3N2U2IiwidXNlcm5hbWUiOiJ0cm9uZ2RheTEiLCJsZXZlbCI6NywidHlwZSI6MCwiY3JlYXR0aW1lIjoiMjAyMS0wNS0xOVQxNDoxOTo0MC4zNTlaIn0sImlhdCI6MTYyMTQzMzk4MCwiZXhwIjoxNjIxNDUxOTgwfQ.HtIF59vqnzjm9JoiTAyHFmr6mVs8X9KHFRACWqKEpPA","sec-ch-ua-mobile":"?0","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36","content-type":"multipart/form-data; boundary=----WebKitFormBoundary2HkG4C6KhIwhDXMT","origin":"http://localhost:3000","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5"},"body":{},"params":{"id":"60a5208179de240b84f684ee"}}},"stack" : Error: {"data":"Cannot read property 'name' of undefined","request":{"url":"/Actor/uploadfile/60a5208179de240b84f684ee","header":{"host":"localhost:3001","connection":"keep-alive","content-length":"54313","sec-ch-ua":"\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"90\", \"Google Chrome\";v=\"90\"","accept":"application/json, text/plain, */*","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7ImlkIjoiNjA5OGQ1NDEyZTFkOWQyNjY0OGI3N2U2IiwidXNlcm5hbWUiOiJ0cm9uZ2RheTEiLCJsZXZlbCI6NywidHlwZSI6MCwiY3JlYXR0aW1lIjoiMjAyMS0wNS0xOVQxNDoxOTo0MC4zNTlaIn0sImlhdCI6MTYyMTQzMzk4MCwiZXhwIjoxNjIxNDUxOTgwfQ.HtIF59vqnzjm9JoiTAyHFmr6mVs8X9KHFRACWqKEpPA","sec-ch-ua-mobile":"?0","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36","content-type":"multipart/form-data; boundary=----WebKitFormBoundary2HkG4C6KhIwhDXMT","origin":"http://localhost:3000","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5"},"body":{},"params":{"id":"60a5208179de240b84f684ee"}}}
+    at Object.exports.LogError (G:\REACT\serve-xemphim\api\FuncLib\FuncLog.js:23:19)
+    at G:\REACT\serve-xemphim\api\controller\uploadfile.js:65:17
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)}
+{"timestamp":"2021-05-19 21:30:05","level":"info",message:{"data":"Server Start"}}
+{"timestamp":"2021-05-19 21:30:22","level":"info",message:{"data":"Server Start"}}
+{"timestamp":"2021-05-19 21:30:51","level":"info",message:{"data":"/User/getuserlogin"}}
+{"timestamp":"2021-05-19 21:30:52","level":"info",message:{"data":"/User/GetNotification/0"}}
+{"timestamp":"2021-05-19 21:30:52","level":"info",message:{"data":"/User/GetApproved/0"}}
+{"timestamp":"2021-05-19 21:30:52","level":"info",message:{"data":"/User/refreshtoken"}}
+{"timestamp":"2021-05-19 21:30:52","level":"info",message:{"data":"/User/getuserlogin"}}
+{"timestamp":"2021-05-19 21:30:58","level":"info",message:{"data":"/Getdeafult/listReport"}}
+{"timestamp":"2021-05-19 21:30:58","level":"info",message:{"data":"/Getdeafult/get_lst_bieucamimg"}}
+{"timestamp":"2021-05-19 21:30:58","level":"info",message:{"data":"/Getdeafult/Getemoj"}}
+{"timestamp":"2021-05-19 21:30:58","level":"info",message:{"data":"/User/GetListBlockUser"}}
+{"timestamp":"2021-05-19 21:30:58","level":"info",message:{"data":"/User/getHistoryEmoj"}}
+{"timestamp":"2021-05-19 21:30:58","level":"info",message:{"data":"/User/getlistemoj"}}
+{"timestamp":"2021-05-19 21:30:58","level":"info",message:{"data":"/User/getusersetting"}}
+{"timestamp":"2021-05-19 21:30:59","level":"info",message:{"data":"/User/GetNotification/0"}}
+{"timestamp":"2021-05-19 21:30:59","level":"info",message:{"data":"/User/getaproved_send"}}
+{"timestamp":"2021-05-19 21:30:59","level":"info",message:{"data":"/User/GetListUserBlockMe"}}
+{"timestamp":"2021-05-19 21:31:00","level":"info",message:{"data":"/User/GetApproved/0"}}
+{"timestamp":"2021-05-19 21:32:37","level":"info",message:{"data":"Server Start"}}
+{"timestamp":"2021-05-19 21:33:04","level":"error",message:{"data":"Cannot read property 'name' of undefined","request":{"url":"/Company/uploadfile/60a5219f90f2982c9c2d019d","header":{"host":"localhost:3001","connection":"keep-alive","content-length":"54313","sec-ch-ua":"\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"90\", \"Google Chrome\";v=\"90\"","accept":"application/json, text/plain, */*","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7ImlkIjoiNjA5OGQ1NDEyZTFkOWQyNjY0OGI3N2U2IiwidXNlcm5hbWUiOiJ0cm9uZ2RheTEiLCJsZXZlbCI6NywidHlwZSI6MCwiY3JlYXR0aW1lIjoiMjAyMS0wNS0xOVQxNDozMDo1MS44OTJaIn0sImlhdCI6MTYyMTQzNDY1MSwiZXhwIjoxNjIxNDUyNjUxfQ.esHxD0iAgnqgLVOxY-lYoc8D2YgK1vXOxxXyuZbJPsY","sec-ch-ua-mobile":"?0","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36","content-type":"multipart/form-data; boundary=----WebKitFormBoundaryaFSHAPWBHedALWzz","origin":"http://localhost:3000","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5"},"body":{},"params":{"id":"60a5219f90f2982c9c2d019d"}}},"stack" : Error: {"data":"Cannot read property 'name' of undefined","request":{"url":"/Company/uploadfile/60a5219f90f2982c9c2d019d","header":{"host":"localhost:3001","connection":"keep-alive","content-length":"54313","sec-ch-ua":"\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"90\", \"Google Chrome\";v=\"90\"","accept":"application/json, text/plain, */*","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7ImlkIjoiNjA5OGQ1NDEyZTFkOWQyNjY0OGI3N2U2IiwidXNlcm5hbWUiOiJ0cm9uZ2RheTEiLCJsZXZlbCI6NywidHlwZSI6MCwiY3JlYXR0aW1lIjoiMjAyMS0wNS0xOVQxNDozMDo1MS44OTJaIn0sImlhdCI6MTYyMTQzNDY1MSwiZXhwIjoxNjIxNDUyNjUxfQ.esHxD0iAgnqgLVOxY-lYoc8D2YgK1vXOxxXyuZbJPsY","sec-ch-ua-mobile":"?0","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36","content-type":"multipart/form-data; boundary=----WebKitFormBoundaryaFSHAPWBHedALWzz","origin":"http://localhost:3000","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5"},"body":{},"params":{"id":"60a5219f90f2982c9c2d019d"}}}
+    at Object.exports.LogError (G:\REACT\serve-xemphim\api\FuncLib\FuncLog.js:23:19)
+    at G:\REACT\serve-xemphim\api\controller\uploadfile.js:103:17
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)}
+{"timestamp":"2021-05-19 21:35:45","level":"info",message:{"data":"Server Start"}}
+{"timestamp":"2021-05-19 21:37:05","level":"error",message:{"data":"Cannot read property 'name' of undefined","request":{"url":"/Company/uploadfile/60a52290b619cf1c94ec5a20","header":{"host":"localhost:3001","connection":"keep-alive","content-length":"54313","sec-ch-ua":"\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"90\", \"Google Chrome\";v=\"90\"","accept":"application/json, text/plain, */*","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7ImlkIjoiNjA5OGQ1NDEyZTFkOWQyNjY0OGI3N2U2IiwidXNlcm5hbWUiOiJ0cm9uZ2RheTEiLCJsZXZlbCI6NywidHlwZSI6MCwiY3JlYXR0aW1lIjoiMjAyMS0wNS0xOVQxNDozMDo1MS44OTJaIn0sImlhdCI6MTYyMTQzNDY1MSwiZXhwIjoxNjIxNDUyNjUxfQ.esHxD0iAgnqgLVOxY-lYoc8D2YgK1vXOxxXyuZbJPsY","sec-ch-ua-mobile":"?0","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36","content-type":"multipart/form-data; boundary=----WebKitFormBoundary14ZmTWA1zvFiExSZ","origin":"http://localhost:3000","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5"},"body":{},"params":{"id":"60a52290b619cf1c94ec5a20"}}},"stack" : Error: {"data":"Cannot read property 'name' of undefined","request":{"url":"/Company/uploadfile/60a52290b619cf1c94ec5a20","header":{"host":"localhost:3001","connection":"keep-alive","content-length":"54313","sec-ch-ua":"\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"90\", \"Google Chrome\";v=\"90\"","accept":"application/json, text/plain, */*","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7ImlkIjoiNjA5OGQ1NDEyZTFkOWQyNjY0OGI3N2U2IiwidXNlcm5hbWUiOiJ0cm9uZ2RheTEiLCJsZXZlbCI6NywidHlwZSI6MCwiY3JlYXR0aW1lIjoiMjAyMS0wNS0xOVQxNDozMDo1MS44OTJaIn0sImlhdCI6MTYyMTQzNDY1MSwiZXhwIjoxNjIxNDUyNjUxfQ.esHxD0iAgnqgLVOxY-lYoc8D2YgK1vXOxxXyuZbJPsY","sec-ch-ua-mobile":"?0","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36","content-type":"multipart/form-data; boundary=----WebKitFormBoundary14ZmTWA1zvFiExSZ","origin":"http://localhost:3000","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5"},"body":{},"params":{"id":"60a52290b619cf1c94ec5a20"}}}
+    at Object.exports.LogError (G:\REACT\serve-xemphim\api\FuncLib\FuncLog.js:23:19)
+    at G:\REACT\serve-xemphim\api\controller\uploadfile.js:104:17
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)}
+{"timestamp":"2021-05-19 21:37:51","level":"info",message:{"data":"Server Start"}}
+{"timestamp":"2021-05-19 21:37:57","level":"error",message:{"data":"Cannot read property 'name' of undefined","request":{"url":"/Company/uploadfile/60a522c42f877c1c8cf6e750","header":{"host":"localhost:3001","connection":"keep-alive","content-length":"54313","sec-ch-ua":"\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"90\", \"Google Chrome\";v=\"90\"","accept":"application/json, text/plain, */*","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7ImlkIjoiNjA5OGQ1NDEyZTFkOWQyNjY0OGI3N2U2IiwidXNlcm5hbWUiOiJ0cm9uZ2RheTEiLCJsZXZlbCI6NywidHlwZSI6MCwiY3JlYXR0aW1lIjoiMjAyMS0wNS0xOVQxNDozMDo1MS44OTJaIn0sImlhdCI6MTYyMTQzNDY1MSwiZXhwIjoxNjIxNDUyNjUxfQ.esHxD0iAgnqgLVOxY-lYoc8D2YgK1vXOxxXyuZbJPsY","sec-ch-ua-mobile":"?0","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36","content-type":"multipart/form-data; boundary=----WebKitFormBoundaryClB5bPuQ1D5OdanW","origin":"http://localhost:3000","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5"},"body":{},"params":{"id":"60a522c42f877c1c8cf6e750"}}},"stack" : Error: {"data":"Cannot read property 'name' of undefined","request":{"url":"/Company/uploadfile/60a522c42f877c1c8cf6e750","header":{"host":"localhost:3001","connection":"keep-alive","content-length":"54313","sec-ch-ua":"\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"90\", \"Google Chrome\";v=\"90\"","accept":"application/json, text/plain, */*","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7ImlkIjoiNjA5OGQ1NDEyZTFkOWQyNjY0OGI3N2U2IiwidXNlcm5hbWUiOiJ0cm9uZ2RheTEiLCJsZXZlbCI6NywidHlwZSI6MCwiY3JlYXR0aW1lIjoiMjAyMS0wNS0xOVQxNDozMDo1MS44OTJaIn0sImlhdCI6MTYyMTQzNDY1MSwiZXhwIjoxNjIxNDUyNjUxfQ.esHxD0iAgnqgLVOxY-lYoc8D2YgK1vXOxxXyuZbJPsY","sec-ch-ua-mobile":"?0","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36","content-type":"multipart/form-data; boundary=----WebKitFormBoundaryClB5bPuQ1D5OdanW","origin":"http://localhost:3000","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5"},"body":{},"params":{"id":"60a522c42f877c1c8cf6e750"}}}
+    at Object.exports.LogError (G:\REACT\serve-xemphim\api\FuncLib\FuncLog.js:23:19)
+    at G:\REACT\serve-xemphim\api\controller\uploadfile.js:105:17
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)}
+{"timestamp":"2021-05-19 21:40:51","level":"info",message:{"data":"/User/getuserlogin"}}
+{"timestamp":"2021-05-19 21:40:51","level":"info",message:{"data":"/User/GetNotification/0"}}
+{"timestamp":"2021-05-19 21:40:51","level":"info",message:{"data":"/User/refreshtoken"}}
+{"timestamp":"2021-05-19 21:40:51","level":"info",message:{"data":"/User/GetApproved/0"}}
+{"timestamp":"2021-05-19 21:40:51","level":"info",message:{"data":"/User/getuserlogin"}}
+{"timestamp":"2021-05-19 21:40:51","level":"info",message:{"data":"/Getdeafult/listReport"}}
+{"timestamp":"2021-05-19 21:40:51","level":"info",message:{"data":"/Getdeafult/get_lst_bieucamimg"}}
+{"timestamp":"2021-05-19 21:40:51","level":"info",message:{"data":"/User/getlistemoj"}}
+{"timestamp":"2021-05-19 21:40:51","level":"info",message:{"data":"/Getdeafult/Getemoj"}}
+{"timestamp":"2021-05-19 21:40:51","level":"info",message:{"data":"/User/getHistoryEmoj"}}
+{"timestamp":"2021-05-19 21:40:52","level":"info",message:{"data":"/User/GetListUserBlockMe"}}
+{"timestamp":"2021-05-19 21:40:52","level":"info",message:{"data":"/User/GetListBlockUser"}}
+{"timestamp":"2021-05-19 21:40:52","level":"info",message:{"data":"/User/getusersetting"}}
+{"timestamp":"2021-05-19 21:40:52","level":"info",message:{"data":"/User/getaproved_send"}}
+{"timestamp":"2021-05-19 21:40:52","level":"info",message:{"data":"/User/GetNotification/0"}}
+{"timestamp":"2021-05-19 21:40:52","level":"info",message:{"data":"/User/GetApproved/0"}}
+{"timestamp":"2021-05-19 21:43:29","level":"info",message:{"data":"/User/getuserlogin"}}
+{"timestamp":"2021-05-19 21:43:30","level":"info",message:{"data":"/User/GetNotification/0"}}
+{"timestamp":"2021-05-19 21:43:30","level":"info",message:{"data":"/User/GetApproved/0"}}
+{"timestamp":"2021-05-19 21:43:30","level":"info",message:{"data":"/User/refreshtoken"}}
+{"timestamp":"2021-05-19 21:43:30","level":"info",message:{"data":"/User/getuserlogin"}}
+{"timestamp":"2021-05-19 21:43:31","level":"info",message:{"data":"/Getdeafult/listReport"}}
+{"timestamp":"2021-05-19 21:43:31","level":"info",message:{"data":"/Getdeafult/get_lst_bieucamimg"}}
+{"timestamp":"2021-05-19 21:43:31","level":"info",message:{"data":"/User/getlistemoj"}}
+{"timestamp":"2021-05-19 21:43:31","level":"info",message:{"data":"/User/getHistoryEmoj"}}
+{"timestamp":"2021-05-19 21:43:31","level":"info",message:{"data":"/User/GetListBlockUser"}}
+{"timestamp":"2021-05-19 21:43:31","level":"info",message:{"data":"/User/GetNotification/0"}}
+{"timestamp":"2021-05-19 21:43:31","level":"info",message:{"data":"/User/GetListUserBlockMe"}}
+{"timestamp":"2021-05-19 21:43:31","level":"info",message:{"data":"/Getdeafult/Getemoj"}}
+{"timestamp":"2021-05-19 21:43:31","level":"info",message:{"data":"/User/getaproved_send"}}
+{"timestamp":"2021-05-19 21:43:31","level":"info",message:{"data":"/User/getusersetting"}}
+{"timestamp":"2021-05-19 21:43:31","level":"info",message:{"data":"/User/GetApproved/0"}}
+{"timestamp":"2021-05-19 21:44:35","level":"info",message:{"data":"Server Start"}}
+{"timestamp":"2021-05-19 21:44:50","level":"error",message:{"data":"Cannot read property 'name' of undefined","request":{"url":"/Company/uploadfile/60a52461d0acda3268f23da0","header":{"host":"localhost:3001","connection":"keep-alive","content-length":"86640","sec-ch-ua":"\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"90\", \"Google Chrome\";v=\"90\"","accept":"application/json, text/plain, */*","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7ImlkIjoiNjA5OGQ1NDEyZTFkOWQyNjY0OGI3N2U2IiwidXNlcm5hbWUiOiJ0cm9uZ2RheTEiLCJsZXZlbCI6NywidHlwZSI6MCwiY3JlYXR0aW1lIjoiMjAyMS0wNS0xOVQxNDo0MzozMC4wMTRaIn0sImlhdCI6MTYyMTQzNTQxMCwiZXhwIjoxNjIxNDUzNDEwfQ.UZwnyJEWqKTA8Sal59K8Eho7uJKaASaeUHtLkZ6opsg","sec-ch-ua-mobile":"?0","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36","content-type":"multipart/form-data; boundary=----WebKitFormBoundaryAVcsfYms23cLPro6","origin":"http://localhost:3000","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5"},"body":{},"params":{"id":"60a52461d0acda3268f23da0"}}},"stack" : Error: {"data":"Cannot read property 'name' of undefined","request":{"url":"/Company/uploadfile/60a52461d0acda3268f23da0","header":{"host":"localhost:3001","connection":"keep-alive","content-length":"86640","sec-ch-ua":"\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"90\", \"Google Chrome\";v=\"90\"","accept":"application/json, text/plain, */*","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7ImlkIjoiNjA5OGQ1NDEyZTFkOWQyNjY0OGI3N2U2IiwidXNlcm5hbWUiOiJ0cm9uZ2RheTEiLCJsZXZlbCI6NywidHlwZSI6MCwiY3JlYXR0aW1lIjoiMjAyMS0wNS0xOVQxNDo0MzozMC4wMTRaIn0sImlhdCI6MTYyMTQzNTQxMCwiZXhwIjoxNjIxNDUzNDEwfQ.UZwnyJEWqKTA8Sal59K8Eho7uJKaASaeUHtLkZ6opsg","sec-ch-ua-mobile":"?0","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36","content-type":"multipart/form-data; boundary=----WebKitFormBoundaryAVcsfYms23cLPro6","origin":"http://localhost:3000","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5"},"body":{},"params":{"id":"60a52461d0acda3268f23da0"}}}
+    at Object.exports.LogError (G:\REACT\serve-xemphim\api\FuncLib\FuncLog.js:23:19)
+    at G:\REACT\serve-xemphim\api\controller\uploadfile.js:107:17
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)}
+{"timestamp":"2021-05-19 21:49:37","level":"info",message:{"data":"Server Start"}}
+{"timestamp":"2021-05-19 21:49:57","level":"info",message:{"data":"Server Start"}}
+{"timestamp":"2021-05-19 21:51:24","level":"info",message:{"data":"Server Start"}}
+{"timestamp":"2021-05-19 21:51:44","level":"info",message:{"data":"Server Start"}}
+{"timestamp":"2021-05-19 21:52:36","level":"info",message:{"data":"Server Start"}}
+{"timestamp":"2021-05-19 21:56:09","level":"info",message:{"data":"Server Start"}}
+{"timestamp":"2021-05-19 21:58:21","level":"info",message:{"data":"/User/refreshtoken"}}
+{"timestamp":"2021-05-19 21:58:31","level":"info",message:{"data":"Server Start"}}
+{"timestamp":"2021-05-19 22:02:42","level":"info",message:{"data":"/User/getuserlogin"}}
+{"timestamp":"2021-05-19 22:02:43","level":"info",message:{"data":"/User/GetNotification/0"}}
+{"timestamp":"2021-05-19 22:02:43","level":"info",message:{"data":"/User/refreshtoken"}}
+{"timestamp":"2021-05-19 22:02:43","level":"info",message:{"data":"/User/GetApproved/0"}}
+{"timestamp":"2021-05-19 22:02:43","level":"info",message:{"data":"/User/getuserlogin"}}
+{"timestamp":"2021-05-19 22:02:56","level":"info",message:{"data":"/Getdeafult/get_lst_bieucamimg"}}
+{"timestamp":"2021-05-19 22:02:56","level":"info",message:{"data":"/Getdeafult/listReport"}}
+{"timestamp":"2021-05-19 22:02:56","level":"info",message:{"data":"/User/GetListUserBlockMe"}}
+{"timestamp":"2021-05-19 22:02:56","level":"info",message:{"data":"/User/getlistemoj"}}
+{"timestamp":"2021-05-19 22:02:56","level":"info",message:{"data":"/User/GetListBlockUser"}}
+{"timestamp":"2021-05-19 22:02:56","level":"info",message:{"data":"/User/getHistoryEmoj"}}
+{"timestamp":"2021-05-19 22:02:56","level":"info",message:{"data":"/Getdeafult/Getemoj"}}
+{"timestamp":"2021-05-19 22:02:56","level":"info",message:{"data":"/User/getusersetting"}}
+{"timestamp":"2021-05-19 22:02:57","level":"info",message:{"data":"/User/getaproved_send"}}
+{"timestamp":"2021-05-19 22:02:57","level":"info",message:{"data":"/User/GetNotification/0"}}
+{"timestamp":"2021-05-19 22:02:57","level":"info",message:{"data":"/User/GetApproved/0"}}
+{"timestamp":"2021-05-19 22:03:35","level":"info",message:{"data":"/User/getuserlogin"}}
+{"timestamp":"2021-05-19 22:03:35","level":"info",message:{"data":"/User/GetNotification/0"}}
+{"timestamp":"2021-05-19 22:03:35","level":"info",message:{"data":"/User/refreshtoken"}}
+{"timestamp":"2021-05-19 22:03:35","level":"info",message:{"data":"/User/GetApproved/0"}}
+{"timestamp":"2021-05-19 22:03:35","level":"info",message:{"data":"/User/getuserlogin"}}
+{"timestamp":"2021-05-19 22:03:36","level":"info",message:{"data":"/Getdeafult/get_lst_bieucamimg"}}
+{"timestamp":"2021-05-19 22:03:36","level":"info",message:{"data":"/Getdeafult/listReport"}}
+{"timestamp":"2021-05-19 22:03:36","level":"info",message:{"data":"/User/getlistemoj"}}
+{"timestamp":"2021-05-19 22:03:36","level":"info",message:{"data":"/User/getHistoryEmoj"}}
+{"timestamp":"2021-05-19 22:03:36","level":"info",message:{"data":"/User/GetListBlockUser"}}
+{"timestamp":"2021-05-19 22:03:36","level":"info",message:{"data":"/User/GetListUserBlockMe"}}
+{"timestamp":"2021-05-19 22:03:36","level":"info",message:{"data":"/User/GetNotification/0"}}
+{"timestamp":"2021-05-19 22:03:36","level":"info",message:{"data":"/Getdeafult/Getemoj"}}
+{"timestamp":"2021-05-19 22:03:36","level":"info",message:{"data":"/User/getusersetting"}}
+{"timestamp":"2021-05-19 22:03:37","level":"info",message:{"data":"/User/getaproved_send"}}
+{"timestamp":"2021-05-19 22:03:37","level":"info",message:{"data":"/User/GetApproved/0"}}
+{"timestamp":"2021-05-19 22:05:34","level":"info",message:{"data":"/User/getuserlogin"}}
+{"timestamp":"2021-05-19 22:05:34","level":"info",message:{"data":"/User/GetApproved/0"}}
+{"timestamp":"2021-05-19 22:05:34","level":"info",message:{"data":"/User/GetNotification/0"}}
+{"timestamp":"2021-05-19 22:05:34","level":"info",message:{"data":"/User/refreshtoken"}}
+{"timestamp":"2021-05-19 22:05:34","level":"info",message:{"data":"/User/getuserlogin"}}
+{"timestamp":"2021-05-19 22:08:45","level":"info",message:{"data":"/Getdeafult/listReport"}}
+{"timestamp":"2021-05-19 22:08:45","level":"info",message:{"data":"/Getdeafult/get_lst_bieucamimg"}}
+{"timestamp":"2021-05-19 22:08:45","level":"info",message:{"data":"/User/getlistemoj"}}
+{"timestamp":"2021-05-19 22:08:45","level":"info",message:{"data":"/User/GetListBlockUser"}}
+{"timestamp":"2021-05-19 22:08:45","level":"info",message:{"data":"/User/getusersetting"}}
+{"timestamp":"2021-05-19 22:08:45","level":"info",message:{"data":"/Getdeafult/Getemoj"}}
+{"timestamp":"2021-05-19 22:08:45","level":"info",message:{"data":"/User/getHistoryEmoj"}}
+{"timestamp":"2021-05-19 22:08:45","level":"info",message:{"data":"/User/GetListUserBlockMe"}}
+{"timestamp":"2021-05-19 22:08:45","level":"info",message:{"data":"/User/getaproved_send"}}
+{"timestamp":"2021-05-19 22:08:46","level":"info",message:{"data":"/User/GetNotification/0"}}
+{"timestamp":"2021-05-19 22:08:46","level":"info",message:{"data":"/User/GetApproved/0"}}
+{"timestamp":"2021-05-19 22:12:45","level":"info",message:{"data":"/User/getuserlogin"}}
+{"timestamp":"2021-05-19 22:12:45","level":"info",message:{"data":"/User/GetNotification/0"}}
+{"timestamp":"2021-05-19 22:12:45","level":"info",message:{"data":"/User/refreshtoken"}}
+{"timestamp":"2021-05-19 22:12:45","level":"info",message:{"data":"/User/GetApproved/0"}}
+{"timestamp":"2021-05-19 22:12:46","level":"info",message:{"data":"/User/getuserlogin"}}
+{"timestamp":"2021-05-19 22:12:47","level":"info",message:{"data":"/Getdeafult/listReport"}}
+{"timestamp":"2021-05-19 22:12:47","level":"info",message:{"data":"/User/getlistemoj"}}
+{"timestamp":"2021-05-19 22:12:47","level":"info",message:{"data":"/Getdeafult/get_lst_bieucamimg"}}
+{"timestamp":"2021-05-19 22:12:47","level":"info",message:{"data":"/User/getHistoryEmoj"}}
+{"timestamp":"2021-05-19 22:12:47","level":"info",message:{"data":"/User/GetListBlockUser"}}
+{"timestamp":"2021-05-19 22:12:47","level":"info",message:{"data":"/User/getusersetting"}}
+{"timestamp":"2021-05-19 22:12:47","level":"info",message:{"data":"/User/GetListUserBlockMe"}}
+{"timestamp":"2021-05-19 22:12:48","level":"info",message:{"data":"/Getdeafult/Getemoj"}}
+{"timestamp":"2021-05-19 22:12:48","level":"info",message:{"data":"/User/getaproved_send"}}
+{"timestamp":"2021-05-19 22:12:48","level":"info",message:{"data":"/User/GetNotification/0"}}
+{"timestamp":"2021-05-19 22:12:48","level":"info",message:{"data":"/User/GetApproved/0"}}
+{"timestamp":"2021-05-19 22:20:41","level":"info",message:{"data":"/User/getuserlogin"}}
+{"timestamp":"2021-05-19 22:20:41","level":"info",message:{"data":"/User/refreshtoken"}}
+{"timestamp":"2021-05-19 22:20:41","level":"info",message:{"data":"/User/GetNotification/0"}}
+{"timestamp":"2021-05-19 22:20:41","level":"info",message:{"data":"/User/GetApproved/0"}}
+{"timestamp":"2021-05-19 22:20:42","level":"info",message:{"data":"/User/getuserlogin"}}
+{"timestamp":"2021-05-19 22:20:42","level":"info",message:{"data":"/Getdeafult/get_lst_bieucamimg"}}
+{"timestamp":"2021-05-19 22:20:42","level":"info",message:{"data":"/Getdeafult/listReport"}}
+{"timestamp":"2021-05-19 22:20:43","level":"info",message:{"data":"/User/getlistemoj"}}
+{"timestamp":"2021-05-19 22:20:43","level":"info",message:{"data":"/User/GetListBlockUser"}}
+{"timestamp":"2021-05-19 22:20:43","level":"info",message:{"data":"/User/getHistoryEmoj"}}
+{"timestamp":"2021-05-19 22:20:43","level":"info",message:{"data":"/User/GetNotification/0"}}
+{"timestamp":"2021-05-19 22:20:43","level":"info",message:{"data":"/User/GetListUserBlockMe"}}
+{"timestamp":"2021-05-19 22:20:43","level":"info",message:{"data":"/Getdeafult/Getemoj"}}
+{"timestamp":"2021-05-19 22:20:43","level":"info",message:{"data":"/User/getusersetting"}}
+{"timestamp":"2021-05-19 22:20:43","level":"info",message:{"data":"/User/GetApproved/0"}}
+{"timestamp":"2021-05-19 22:20:43","level":"info",message:{"data":"/User/getaproved_send"}}
+{"timestamp":"2021-05-19 22:28:08","level":"info",message:{"data":"/User/getuserlogin"}}
+{"timestamp":"2021-05-19 22:28:08","level":"info",message:{"data":"/User/GetNotification/0"}}
+{"timestamp":"2021-05-19 22:28:08","level":"info",message:{"data":"/User/GetApproved/0"}}
+{"timestamp":"2021-05-19 22:28:08","level":"info",message:{"data":"/User/refreshtoken"}}
+{"timestamp":"2021-05-19 22:28:08","level":"info",message:{"data":"/User/getuserlogin"}}
+{"timestamp":"2021-05-19 22:31:04","level":"info",message:{"data":"/Getdeafult/listReport"}}
+{"timestamp":"2021-05-19 22:31:04","level":"info",message:{"data":"/User/getlistemoj"}}
+{"timestamp":"2021-05-19 22:31:04","level":"info",message:{"data":"/User/getusersetting"}}
+{"timestamp":"2021-05-19 22:31:04","level":"info",message:{"data":"/User/getHistoryEmoj"}}
+{"timestamp":"2021-05-19 22:31:04","level":"info",message:{"data":"/User/GetListUserBlockMe"}}
+{"timestamp":"2021-05-19 22:31:04","level":"info",message:{"data":"/Getdeafult/get_lst_bieucamimg"}}
+{"timestamp":"2021-05-19 22:31:04","level":"info",message:{"data":"/User/GetListBlockUser"}}
+{"timestamp":"2021-05-19 22:31:05","level":"info",message:{"data":"/Getdeafult/Getemoj"}}
+{"timestamp":"2021-05-19 22:31:05","level":"info",message:{"data":"/User/getaproved_send"}}
+{"timestamp":"2021-05-19 22:31:05","level":"info",message:{"data":"/User/GetNotification/0"}}
+{"timestamp":"2021-05-19 22:31:05","level":"info",message:{"data":"/User/GetApproved/0"}}
+{"timestamp":"2021-05-19 22:34:30","level":"info",message:{"data":"/User/getuserlogin"}}
+{"timestamp":"2021-05-19 22:34:31","level":"info",message:{"data":"/User/GetApproved/0"}}
+{"timestamp":"2021-05-19 22:34:31","level":"info",message:{"data":"/User/GetNotification/0"}}
+{"timestamp":"2021-05-19 22:34:31","level":"info",message:{"data":"/User/refreshtoken"}}
+{"timestamp":"2021-05-19 22:34:31","level":"info",message:{"data":"/User/getuserlogin"}}
+{"timestamp":"2021-05-19 22:34:38","level":"info",message:{"data":"/Getdeafult/get_lst_bieucamimg"}}
+{"timestamp":"2021-05-19 22:34:38","level":"info",message:{"data":"/Getdeafult/listReport"}}
+{"timestamp":"2021-05-19 22:34:38","level":"info",message:{"data":"/User/getlistemoj"}}
+{"timestamp":"2021-05-19 22:34:38","level":"info",message:{"data":"/User/GetListUserBlockMe"}}
+{"timestamp":"2021-05-19 22:34:38","level":"info",message:{"data":"/Getdeafult/Getemoj"}}
+{"timestamp":"2021-05-19 22:34:38","level":"info",message:{"data":"/User/GetListBlockUser"}}
+{"timestamp":"2021-05-19 22:34:38","level":"info",message:{"data":"/User/getHistoryEmoj"}}
+{"timestamp":"2021-05-19 22:34:39","level":"info",message:{"data":"/User/getusersetting"}}
+{"timestamp":"2021-05-19 22:34:39","level":"info",message:{"data":"/User/getaproved_send"}}
+{"timestamp":"2021-05-19 22:34:39","level":"info",message:{"data":"/User/GetNotification/0"}}
+{"timestamp":"2021-05-19 22:34:39","level":"info",message:{"data":"/User/GetApproved/0"}}
+{"timestamp":"2021-05-19 22:35:01","level":"error",message:{"data":"Cannot read property 'file' of null","request":{"url":"/Company/uploadfile/60a530252711e32654f0cf54","header":{"host":"localhost:3001","connection":"keep-alive","content-length":"139","sec-ch-ua":"\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"90\", \"Google Chrome\";v=\"90\"","accept":"application/json, text/plain, */*","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7ImlkIjoiNjA5OGQ1NDEyZTFkOWQyNjY0OGI3N2U2IiwidXNlcm5hbWUiOiJ0cm9uZ2RheTEiLCJsZXZlbCI6NywidHlwZSI6MCwiY3JlYXR0aW1lIjoiMjAyMS0wNS0xOVQxNTozNDozMC45NDBaIn0sImlhdCI6MTYyMTQzODQ3MCwiZXhwIjoxNjIxNDU2NDcwfQ.wNpyRIWLk3L13a80wGh2KKgOYOgrwL_2qqigNWNe4jA","sec-ch-ua-mobile":"?0","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36","content-type":"multipart/form-data; boundary=----WebKitFormBoundary765JNsnNBoQqGcOB","origin":"http://localhost:3000","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5"},"body":{"file":"null"},"params":{"id":"60a530252711e32654f0cf54"}}},"stack" : Error: {"data":"Cannot read property 'file' of null","request":{"url":"/Company/uploadfile/60a530252711e32654f0cf54","header":{"host":"localhost:3001","connection":"keep-alive","content-length":"139","sec-ch-ua":"\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"90\", \"Google Chrome\";v=\"90\"","accept":"application/json, text/plain, */*","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7ImlkIjoiNjA5OGQ1NDEyZTFkOWQyNjY0OGI3N2U2IiwidXNlcm5hbWUiOiJ0cm9uZ2RheTEiLCJsZXZlbCI6NywidHlwZSI6MCwiY3JlYXR0aW1lIjoiMjAyMS0wNS0xOVQxNTozNDozMC45NDBaIn0sImlhdCI6MTYyMTQzODQ3MCwiZXhwIjoxNjIxNDU2NDcwfQ.wNpyRIWLk3L13a80wGh2KKgOYOgrwL_2qqigNWNe4jA","sec-ch-ua-mobile":"?0","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36","content-type":"multipart/form-data; boundary=----WebKitFormBoundary765JNsnNBoQqGcOB","origin":"http://localhost:3000","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5"},"body":{"file":"null"},"params":{"id":"60a530252711e32654f0cf54"}}}
+    at Object.exports.LogError (G:\REACT\serve-xemphim\api\FuncLib\FuncLog.js:23:19)
+    at exports.uploadCompanyAvatar (G:\REACT\serve-xemphim\api\controller\uploadfile.js:107:13)
+    at Layer.handle [as handle_request] (G:\REACT\serve-xemphim\node_modules\express\lib\router\layer.js:95:5)
+    at next (G:\REACT\serve-xemphim\node_modules\express\lib\router\route.js:137:13)
+    at exports.is_admin (G:\REACT\serve-xemphim\api\middleware\token.js:103:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)}
+{"timestamp":"2021-05-19 22:37:56","level":"info",message:{"data":"/User/getuserlogin"}}
+{"timestamp":"2021-05-19 22:37:56","level":"info",message:{"data":"/User/GetApproved/0"}}
+{"timestamp":"2021-05-19 22:37:56","level":"info",message:{"data":"/User/GetNotification/0"}}
+{"timestamp":"2021-05-19 22:37:56","level":"info",message:{"data":"/User/refreshtoken"}}
+{"timestamp":"2021-05-19 22:37:56","level":"info",message:{"data":"/User/getuserlogin"}}
+{"timestamp":"2021-05-19 22:37:57","level":"info",message:{"data":"/Getdeafult/get_lst_bieucamimg"}}
+{"timestamp":"2021-05-19 22:37:57","level":"info",message:{"data":"/Getdeafult/listReport"}}
+{"timestamp":"2021-05-19 22:37:57","level":"info",message:{"data":"/User/getHistoryEmoj"}}
+{"timestamp":"2021-05-19 22:37:57","level":"info",message:{"data":"/User/getlistemoj"}}
+{"timestamp":"2021-05-19 22:37:57","level":"info",message:{"data":"/User/GetListUserBlockMe"}}
+{"timestamp":"2021-05-19 22:37:57","level":"info",message:{"data":"/User/GetListBlockUser"}}
+{"timestamp":"2021-05-19 22:37:58","level":"info",message:{"data":"/Getdeafult/Getemoj"}}
+{"timestamp":"2021-05-19 22:37:58","level":"info",message:{"data":"/User/getusersetting"}}
+{"timestamp":"2021-05-19 22:37:58","level":"info",message:{"data":"/User/getaproved_send"}}
+{"timestamp":"2021-05-19 22:37:58","level":"info",message:{"data":"/User/GetNotification/0"}}
+{"timestamp":"2021-05-19 22:37:58","level":"info",message:{"data":"/User/GetApproved/0"}}
+{"timestamp":"2021-05-19 22:38:59","level":"info",message:{"data":"/User/getuserlogin"}}
+{"timestamp":"2021-05-19 22:39:00","level":"info",message:{"data":"/User/GetApproved/0"}}
+{"timestamp":"2021-05-19 22:39:00","level":"info",message:{"data":"/User/GetNotification/0"}}
+{"timestamp":"2021-05-19 22:39:00","level":"info",message:{"data":"/User/refreshtoken"}}
+{"timestamp":"2021-05-19 22:39:00","level":"info",message:{"data":"/User/getuserlogin"}}
+{"timestamp":"2021-05-19 22:39:01","level":"info",message:{"data":"/Getdeafult/listReport"}}
+{"timestamp":"2021-05-19 22:39:01","level":"info",message:{"data":"/Getdeafult/get_lst_bieucamimg"}}
+{"timestamp":"2021-05-19 22:39:01","level":"info",message:{"data":"/User/getlistemoj"}}
+{"timestamp":"2021-05-19 22:39:01","level":"info",message:{"data":"/User/GetListBlockUser"}}
+{"timestamp":"2021-05-19 22:39:01","level":"info",message:{"data":"/User/getHistoryEmoj"}}
+{"timestamp":"2021-05-19 22:39:01","level":"info",message:{"data":"/User/getusersetting"}}
+{"timestamp":"2021-05-19 22:39:01","level":"info",message:{"data":"/Getdeafult/Getemoj"}}
+{"timestamp":"2021-05-19 22:39:01","level":"info",message:{"data":"/User/GetListUserBlockMe"}}
+{"timestamp":"2021-05-19 22:39:01","level":"info",message:{"data":"/User/GetNotification/0"}}
+{"timestamp":"2021-05-19 22:39:01","level":"info",message:{"data":"/User/getaproved_send"}}
+{"timestamp":"2021-05-19 22:39:02","level":"info",message:{"data":"/User/GetApproved/0"}}
+{"timestamp":"2021-05-19 22:40:28","level":"info",message:{"data":"/User/getuserlogin"}}
+{"timestamp":"2021-05-19 22:40:28","level":"info",message:{"data":"/User/refreshtoken"}}
+{"timestamp":"2021-05-19 22:40:28","level":"info",message:{"data":"/User/GetNotification/0"}}
+{"timestamp":"2021-05-19 22:40:28","level":"info",message:{"data":"/User/GetApproved/0"}}
+{"timestamp":"2021-05-19 22:40:28","level":"info",message:{"data":"/User/getuserlogin"}}
+{"timestamp":"2021-05-19 22:40:33","level":"info",message:{"data":"/Getdeafult/get_lst_bieucamimg"}}
+{"timestamp":"2021-05-19 22:40:33","level":"info",message:{"data":"/Getdeafult/listReport"}}
+{"timestamp":"2021-05-19 22:40:33","level":"info",message:{"data":"/User/GetListBlockUser"}}
+{"timestamp":"2021-05-19 22:40:33","level":"info",message:{"data":"/User/getHistoryEmoj"}}
+{"timestamp":"2021-05-19 22:40:33","level":"info",message:{"data":"/User/getlistemoj"}}
+{"timestamp":"2021-05-19 22:40:33","level":"info",message:{"data":"/User/GetListUserBlockMe"}}
+{"timestamp":"2021-05-19 22:40:33","level":"info",message:{"data":"/Getdeafult/Getemoj"}}
+{"timestamp":"2021-05-19 22:40:33","level":"info",message:{"data":"/User/getusersetting"}}
+{"timestamp":"2021-05-19 22:40:33","level":"info",message:{"data":"/User/GetNotification/0"}}
+{"timestamp":"2021-05-19 22:40:33","level":"info",message:{"data":"/User/getaproved_send"}}
+{"timestamp":"2021-05-19 22:40:34","level":"info",message:{"data":"/User/GetApproved/0"}}
+{"timestamp":"2021-05-19 22:40:55","level":"error",message:{"data":"Cannot read property 'file' of null","request":{"url":"/Company/uploadfile/60a530eb2711e32654f0cf56","header":{"host":"localhost:3001","connection":"keep-alive","content-length":"139","sec-ch-ua":"\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"90\", \"Google Chrome\";v=\"90\"","accept":"application/json, text/plain, */*","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7ImlkIjoiNjA5OGQ1NDEyZTFkOWQyNjY0OGI3N2U2IiwidXNlcm5hbWUiOiJ0cm9uZ2RheTEiLCJsZXZlbCI6NywidHlwZSI6MCwiY3JlYXR0aW1lIjoiMjAyMS0wNS0xOVQxNTo0MDoyOC40OTBaIn0sImlhdCI6MTYyMTQzODgyOCwiZXhwIjoxNjIxNDU2ODI4fQ.2wz35zMfXMZz6hdLMyAZ0-t63xtxDBCmQ92QClvftD4","sec-ch-ua-mobile":"?0","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36","content-type":"multipart/form-data; boundary=----WebKitFormBoundarySzFs9dU3428Qnpt0","origin":"http://localhost:3000","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5"},"body":{"file":"null"},"params":{"id":"60a530eb2711e32654f0cf56"}}},"stack" : Error: {"data":"Cannot read property 'file' of null","request":{"url":"/Company/uploadfile/60a530eb2711e32654f0cf56","header":{"host":"localhost:3001","connection":"keep-alive","content-length":"139","sec-ch-ua":"\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"90\", \"Google Chrome\";v=\"90\"","accept":"application/json, text/plain, */*","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7ImlkIjoiNjA5OGQ1NDEyZTFkOWQyNjY0OGI3N2U2IiwidXNlcm5hbWUiOiJ0cm9uZ2RheTEiLCJsZXZlbCI6NywidHlwZSI6MCwiY3JlYXR0aW1lIjoiMjAyMS0wNS0xOVQxNTo0MDoyOC40OTBaIn0sImlhdCI6MTYyMTQzODgyOCwiZXhwIjoxNjIxNDU2ODI4fQ.2wz35zMfXMZz6hdLMyAZ0-t63xtxDBCmQ92QClvftD4","sec-ch-ua-mobile":"?0","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36","content-type":"multipart/form-data; boundary=----WebKitFormBoundarySzFs9dU3428Qnpt0","origin":"http://localhost:3000","sec-fetch-site":"same-site","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:3000/","accept-encoding":"gzip, deflate, br","accept-language":"vi-VN,vi;q=0.9,fr-FR;q=0.8,fr;q=0.7,en-US;q=0.6,en;q=0.5"},"body":{"file":"null"},"params":{"id":"60a530eb2711e32654f0cf56"}}}
+    at Object.exports.LogError (G:\REACT\serve-xemphim\api\FuncLib\FuncLog.js:23:19)
+    at exports.uploadCompanyAvatar (G:\REACT\serve-xemphim\api\controller\uploadfile.js:107:13)
+    at Layer.handle [as handle_request] (G:\REACT\serve-xemphim\node_modules\express\lib\router\layer.js:95:5)
+    at next (G:\REACT\serve-xemphim\node_modules\express\lib\router\route.js:137:13)
+    at exports.is_admin (G:\REACT\serve-xemphim\api\middleware\token.js:103:5)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)}
+{"timestamp":"2021-05-19 22:41:56","level":"info",message:{"data":"/User/getuserlogin"}}
+{"timestamp":"2021-05-19 22:41:57","level":"info",message:{"data":"/User/refreshtoken"}}
+{"timestamp":"2021-05-19 22:41:57","level":"info",message:{"data":"/User/GetNotification/0"}}
+{"timestamp":"2021-05-19 22:41:57","level":"info",message:{"data":"/User/GetApproved/0"}}
+{"timestamp":"2021-05-19 22:41:57","level":"info",message:{"data":"/User/getuserlogin"}}
+{"timestamp":"2021-05-19 22:41:59","level":"info",message:{"data":"/Getdeafult/get_lst_bieucamimg"}}
+{"timestamp":"2021-05-19 22:41:59","level":"info",message:{"data":"/Getdeafult/listReport"}}
+{"timestamp":"2021-05-19 22:41:59","level":"info",message:{"data":"/User/GetListBlockUser"}}
+{"timestamp":"2021-05-19 22:41:59","level":"info",message:{"data":"/User/getlistemoj"}}
+{"timestamp":"2021-05-19 22:42:00","level":"info",message:{"data":"/User/getHistoryEmoj"}}
+{"timestamp":"2021-05-19 22:42:00","level":"info",message:{"data":"/Getdeafult/Getemoj"}}
+{"timestamp":"2021-05-19 22:42:00","level":"info",message:{"data":"/User/GetNotification/0"}}
+{"timestamp":"2021-05-19 22:42:00","level":"info",message:{"data":"/User/GetListUserBlockMe"}}
+{"timestamp":"2021-05-19 22:42:00","level":"info",message:{"data":"/User/getusersetting"}}
+{"timestamp":"2021-05-19 22:42:00","level":"info",message:{"data":"/User/getaproved_send"}}
+{"timestamp":"2021-05-19 22:42:00","level":"info",message:{"data":"/User/GetApproved/0"}}
+{"timestamp":"2021-05-19 22:44:52","level":"info",message:{"data":"/User/getuserlogin"}}
+{"timestamp":"2021-05-19 22:44:52","level":"info",message:{"data":"/User/GetApproved/0"}}
+{"timestamp":"2021-05-19 22:44:52","level":"info",message:{"data":"/User/GetNotification/0"}}
+{"timestamp":"2021-05-19 22:44:52","level":"info",message:{"data":"/User/refreshtoken"}}
+{"timestamp":"2021-05-19 22:44:53","level":"info",message:{"data":"/User/getuserlogin"}}
+{"timestamp":"2021-05-19 22:46:43","level":"info",message:{"data":"/Getdeafult/get_lst_bieucamimg"}}
+{"timestamp":"2021-05-19 22:46:43","level":"info",message:{"data":"/Getdeafult/listReport"}}
+{"timestamp":"2021-05-19 22:46:43","level":"info",message:{"data":"/User/getlistemoj"}}
+{"timestamp":"2021-05-19 22:46:43","level":"info",message:{"data":"/User/GetListUserBlockMe"}}
+{"timestamp":"2021-05-19 22:46:43","level":"info",message:{"data":"/User/GetListBlockUser"}}
+{"timestamp":"2021-05-19 22:46:43","level":"info",message:{"data":"/User/getHistoryEmoj"}}
+{"timestamp":"2021-05-19 22:46:43","level":"info",message:{"data":"/Getdeafult/Getemoj"}}
+{"timestamp":"2021-05-19 22:46:43","level":"info",message:{"data":"/User/getusersetting"}}
+{"timestamp":"2021-05-19 22:46:44","level":"info",message:{"data":"/User/getaproved_send"}}
+{"timestamp":"2021-05-19 22:46:44","level":"info",message:{"data":"/User/GetNotification/0"}}
+{"timestamp":"2021-05-19 22:46:44","level":"info",message:{"data":"/User/GetApproved/0"}}
+{"timestamp":"2021-05-19 22:48:01","level":"info",message:{"data":"/User/getuserlogin"}}
+{"timestamp":"2021-05-19 22:48:02","level":"info",message:{"data":"/User/refreshtoken"}}
+{"timestamp":"2021-05-19 22:48:02","level":"info",message:{"data":"/User/GetNotification/0"}}
+{"timestamp":"2021-05-19 22:48:02","level":"info",message:{"data":"/User/GetApproved/0"}}
+{"timestamp":"2021-05-19 22:48:02","level":"info",message:{"data":"/User/getuserlogin"}}
+{"timestamp":"2021-05-19 22:48:11","level":"info",message:{"data":"/Getdeafult/get_lst_bieucamimg"}}
+{"timestamp":"2021-05-19 22:48:11","level":"info",message:{"data":"/Getdeafult/listReport"}}
+{"timestamp":"2021-05-19 22:48:11","level":"info",message:{"data":"/Getdeafult/Getemoj"}}
+{"timestamp":"2021-05-19 22:48:11","level":"info",message:{"data":"/User/getHistoryEmoj"}}
+{"timestamp":"2021-05-19 22:48:11","level":"info",message:{"data":"/User/GetListUserBlockMe"}}
+{"timestamp":"2021-05-19 22:48:11","level":"info",message:{"data":"/User/getlistemoj"}}
+{"timestamp":"2021-05-19 22:48:12","level":"info",message:{"data":"/User/getusersetting"}}
+{"timestamp":"2021-05-19 22:48:12","level":"info",message:{"data":"/User/GetListBlockUser"}}
+{"timestamp":"2021-05-19 22:48:12","level":"info",message:{"data":"/User/GetNotification/0"}}
+{"timestamp":"2021-05-19 22:48:12","level":"info",message:{"data":"/User/getaproved_send"}}
+{"timestamp":"2021-05-19 22:48:12","level":"info",message:{"data":"/User/GetApproved/0"}}
+{"timestamp":"2021-05-19 22:48:46","level":"info",message:{"data":"/User/getuserlogin"}}
+{"timestamp":"2021-05-19 22:48:46","level":"info",message:{"data":"/User/refreshtoken"}}
+{"timestamp":"2021-05-19 22:48:46","level":"info",message:{"data":"/User/GetApproved/0"}}
+{"timestamp":"2021-05-19 22:48:46","level":"info",message:{"data":"/User/GetNotification/0"}}
+{"timestamp":"2021-05-19 22:48:46","level":"info",message:{"data":"/User/getuserlogin"}}
+{"timestamp":"2021-05-19 22:48:49","level":"info",message:{"data":"/Getdeafult/listReport"}}
+{"timestamp":"2021-05-19 22:48:49","level":"info",message:{"data":"/Getdeafult/get_lst_bieucamimg"}}
+{"timestamp":"2021-05-19 22:48:49","level":"info",message:{"data":"/User/GetListBlockUser"}}
+{"timestamp":"2021-05-19 22:48:49","level":"info",message:{"data":"/User/getlistemoj"}}
+{"timestamp":"2021-05-19 22:48:49","level":"info",message:{"data":"/User/getHistoryEmoj"}}
+{"timestamp":"2021-05-19 22:48:49","level":"info",message:{"data":"/User/GetListUserBlockMe"}}
+{"timestamp":"2021-05-19 22:48:49","level":"info",message:{"data":"/Getdeafult/Getemoj"}}
+{"timestamp":"2021-05-19 22:48:49","level":"info",message:{"data":"/User/GetApproved/0"}}
+{"timestamp":"2021-05-19 22:48:49","level":"info",message:{"data":"/User/GetNotification/0"}}
+{"timestamp":"2021-05-19 22:48:49","level":"info",message:{"data":"/User/getusersetting"}}
+{"timestamp":"2021-05-19 22:48:49","level":"info",message:{"data":"/User/getaproved_send"}}
+{"timestamp":"2021-05-19 22:49:33","level":"info",message:{"data":"/User/getuserlogin"}}
+{"timestamp":"2021-05-19 22:49:33","level":"info",message:{"data":"/User/GetApproved/0"}}
+{"timestamp":"2021-05-19 22:49:33","level":"info",message:{"data":"/User/GetNotification/0"}}
+{"timestamp":"2021-05-19 22:49:33","level":"info",message:{"data":"/User/refreshtoken"}}
+{"timestamp":"2021-05-19 22:49:33","level":"info",message:{"data":"/User/getuserlogin"}}
+{"timestamp":"2021-05-19 22:49:36","level":"info",message:{"data":"/Getdeafult/get_lst_bieucamimg"}}
+{"timestamp":"2021-05-19 22:49:36","level":"info",message:{"data":"/Getdeafult/listReport"}}
+{"timestamp":"2021-05-19 22:49:36","level":"info",message:{"data":"/User/getlistemoj"}}
+{"timestamp":"2021-05-19 22:49:36","level":"info",message:{"data":"/User/getHistoryEmoj"}}
+{"timestamp":"2021-05-19 22:49:36","level":"info",message:{"data":"/User/GetListBlockUser"}}
+{"timestamp":"2021-05-19 22:49:36","level":"info",message:{"data":"/User/GetListUserBlockMe"}}
+{"timestamp":"2021-05-19 22:49:36","level":"info",message:{"data":"/User/getusersetting"}}
+{"timestamp":"2021-05-19 22:49:36","level":"info",message:{"data":"/Getdeafult/Getemoj"}}
+{"timestamp":"2021-05-19 22:49:36","level":"info",message:{"data":"/User/GetNotification/0"}}
+{"timestamp":"2021-05-19 22:49:36","level":"info",message:{"data":"/User/getaproved_send"}}
+{"timestamp":"2021-05-19 22:49:37","level":"info",message:{"data":"/User/GetApproved/0"}}

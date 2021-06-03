@@ -14,7 +14,7 @@ const userSchema = mongoose.Schema({
     creattime:Date,
     updatetime:Date,
     type: Number,
-    seen:{ type :mongoose.Schema.Types.ObjectId , ref: "NotiNotSeen"},
+    seen:Number , //0:not seen ,1 :seen
     disablenoti:Number,
     status:{ type: Number, require: true , default:0 } // 0:ok ,1 denied
 

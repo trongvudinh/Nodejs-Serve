@@ -6,6 +6,7 @@ const MenuController = require('./../controller/menu');
 const TokenController = require('./../middleware/token');
 
 router.get('',MenuController.GetAllMenu);
+router.get('/Catalog',MenuController.GetAllCatalog);
 
 router.post('/AllMenu',TokenController.is_admin, MenuController.GenerateMenu);
 router.post('/UpdateMenu',TokenController.is_admin, MenuController.MenuUpdatelink);

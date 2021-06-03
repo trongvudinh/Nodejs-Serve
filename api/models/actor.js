@@ -12,6 +12,7 @@ const userSchema = mongoose.Schema({
     user_creat : { type :mongoose.Schema.Types.ObjectId , ref: "User"},
     creattime:Date,
     updatetime:Date,
+    countMov:{type :Number , default :0},
     status: { type: Number, require: true , default:0 } // 0:ok ,1 denied
 })
 module.exports = mongoose.model('Actor', userSchema, 'T_ACTOR');

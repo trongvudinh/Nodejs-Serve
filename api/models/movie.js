@@ -17,11 +17,12 @@ const userSchema = mongoose.Schema({
     content:String,
     content_re :String,
     urlavatar:String,
-    type_mov : Number ,//0:private 1:public
+    type_mov : Number ,//0:public 1:private
     user_creat : { type :mongoose.Schema.Types.ObjectId , ref: "User"},
     creattime:Date,
+    user_update  : {type :String ,ref :"User"},
     updatetime:Date,
-    series:{ type :mongoose.Schema.Types.ObjectId , ref: "Series"},
+    series:{ type :String , ref: "Series"},
     list_actor:[{ type :mongoose.Schema.Types.ObjectId , ref: "Actor"}],
     list_tag:[{ type :mongoose.Schema.Types.ObjectId , ref: "Tag"}],
     list_cata:[{ type :mongoose.Schema.Types.ObjectId , ref: "Catalog"}],

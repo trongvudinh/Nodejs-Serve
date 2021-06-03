@@ -10,7 +10,19 @@ exports.GetAllMenu = (req, res, next) => {
     try {
         Menu.find().populate('list_catalog').then(data => {
             res.status(200).json(data);
-            log.LogInfo(req.originalUrl);
+        }).catch(err => {
+            res.status(500).json({ error: err });
+            log.LogInfo(err, req, res);
+        })
+    } catch (error) {
+        res.status(500).json({ error: error });
+        log.LogError(error, req, res)
+    }
+}
+exports.GetAllCatalog = (req, res, next) => {
+    try {
+        Catalog.find().then(data => {
+            res.status(200).json(data);
         }).catch(err => {
             res.status(500).json({ error: err });
             log.LogInfo(err, req, res);

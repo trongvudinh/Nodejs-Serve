@@ -34,12 +34,18 @@ const menuRouter = require('./api/router/menu');
 const getDefualtRouter = require('./api/router/getdefualt');
 const tagRouter = require('./api/router/tag');
 const actorRouter = require('./api/router/actor');
+const companyRouter = require('./api/router/company');
+const seriesRouter = require('./api/router/series');
+const movieRouter = require('./api/router/movie');
 
 app.use('/User',userRouter);
 app.use('/Menu',menuRouter);
 app.use('/Getdeafult',getDefualtRouter);
 app.use('/Tag',tagRouter);
 app.use('/Actor',actorRouter);
+app.use('/Company',companyRouter);
+app.use('/Series',seriesRouter);
+app.use('/Movie',movieRouter);
 
 app.use((req, res, next)=>{
     const error = new Error('Not found');

@@ -8,6 +8,7 @@ const mongoose = require('mongoose');
 const bcrypt = require('bcrypt');
 
 const drive = require('./../FuncLib/googledrive');
+const Actor =require('./../models/actor');
 
 const Notification = require('./../models/notification');
 const Approved = require('./../models/approved');
@@ -474,7 +475,14 @@ exports.getuser = (req, res, next) => {
 exports.test = async (req, res, next) => {
     // User.updateOne({id: '60859615e1a93c3348d38ba2'},{lst_friend:[{id:'6085960db543e0451cb92740', creattime:new Date()},{id:'608596078d03ac37f41ac105', creattime:new Date()}]})
    console.log(req.params);
-    console.log(req.files.f)
-    const ss = await drive.test();
-    res.status(200).json(ss)
+    console.log(req.files.file)
+    //const ss = FuncLib.getFilename(req.files.file.name,0)
+    //const ss = await drive.test();
+    // const ss =await Actor.find().exec();
+    // const xx =ss.map((data,index)=> {return data._id});
+    // console.log(xx);
+    // const re = await Actor.find({id: {$in : xx}}).exec();
+    //Actor.updateOne({_id:'60a3ec3a283c810cdc4826c9'},{$inc :{countMov: 1 }}).then().catch();
+    const re = await drive.test();
+    return res.status(200).json(re);
 }
